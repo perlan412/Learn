@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/directory.png",
+        "source": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/src/main/res/drawable-mdpi/directory.png"
+    },
+    {
+        "merged": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_action_search.png",
+        "source": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/src/main/res/drawable-mdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/src/main/res/drawable-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/file_doc.png",
+        "source": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/src/main/res/drawable-mdpi/file_doc.png"
+    }
+]

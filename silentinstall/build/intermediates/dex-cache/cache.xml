@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_317dac53ab6439b6658e41c5f19a43c47bf4bfa2/classes.dex" />
+    </item>
+    <item
+        jar="/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="10dc2157917ce89e452a681ad1b3a5becbb8bc18">
+        <dex dex="/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_40434e43b339c2d0f64e327df112257ff24033f0/classes.dex" />
+    </item>
+    <item
+        jar="/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c44ae081fad8f2c58941dc4741b3b0400d3f4e73">
+        <dex dex="/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5c4ab81c5d8cad3eba9c71d456e4b5fbe6f92a6b/classes.dex" />
+    </item>
+    <item
+        jar="/home/perlan/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_5812efc17ed22d065c5edbbe4b528b5c33a4078a/classes.dex" />
+    </item>
+    <item
+        jar="/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_b4d82784e68322fcd9c8d0fa7444ee24474f6bca/classes.dex" />
+    </item>
+
+</items>

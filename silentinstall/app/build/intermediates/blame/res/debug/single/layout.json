@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/res/merged/debug/layout/activity_file_explorer.xml",
+        "source": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/src/main/res/layout/activity_file_explorer.xml"
+    },
+    {
+        "merged": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/home/perlan/work/pepsl/android_learn/UIBestPractice/silentinstall/app/src/main/res/layout/list_item.xml"
+    }
+]
