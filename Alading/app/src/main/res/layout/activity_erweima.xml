@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/window_width"
+    android:layout_height="@dimen/window_height">
+
+<ImageView
+    android:id="@+id/image_view"
+    android:layout_width="@dimen/window_width"
+    android:layout_height="@dimen/window_height"/>
+    
+</RelativeLayout>

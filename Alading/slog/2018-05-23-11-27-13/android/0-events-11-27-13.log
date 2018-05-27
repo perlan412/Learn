@@ -1,0 +1,599 @@
+
+============  18-05-23 11:27:13  ==============
+05-23 11:27:31.443   158   158 I boot_progress_start: 31192
+05-23 11:27:32.534   158   158 I boot_progress_preload_start: 32289
+05-23 11:27:34.526   158   158 I boot_progress_preload_end: 34278
+05-23 11:27:34.896   592   592 I boot_progress_system_run: 34641
+05-23 11:27:35.096   592   592 I boot_progress_pms_start: 34840
+05-23 11:27:35.487   592   592 I boot_progress_pms_system_scan_start: 35239
+05-23 11:27:37.289   592   592 I boot_progress_pms_data_scan_start: 37045
+05-23 11:27:38.009   592   592 I boot_progress_pms_scan_end: 37768
+05-23 11:27:38.430   592   592 I boot_progress_pms_data_scan_start: 38180
+05-23 11:27:38.430   592   592 I boot_progress_pms_ready: 38181
+05-23 11:27:38.780   592   592 I dvm_lock_sample: [system_server,0,main,257,UserManagerService.java,289,PackageManagerService.java,1191,51]
+05-23 11:27:39.020   592   602 I battery_status: [2,2,1,2,Li-ion]
+05-23 11:27:39.020   592   602 I battery_level: [100,4302,200]
+05-23 11:27:39.230   592   612 I screen_toggled: 1
+05-23 11:27:39.250   592   592 I wm_stack_created: [0,-1,6,100]
+05-23 11:27:39.371   592   592 I configuration_changed: 7672
+05-23 11:27:40.011   592   592 I dvm_lock_sample: [system_server,0,main,439,UserManagerService.java,263,PackageManagerService.java,12169,87]
+05-23 11:27:40.872   592   592 I backup_data_changed: com.android.browser
+05-23 11:27:40.872   592   592 I backup_data_changed: com.android.providers.userdictionary
+05-23 11:27:40.882   592   592 I backup_data_changed: com.android.sharedstoragebackup
+05-23 11:27:40.882   592   592 I backup_data_changed: android
+05-23 11:27:40.882   592   592 I backup_data_changed: com.android.dialer
+05-23 11:27:40.892   592   592 I backup_data_changed: com.android.providers.settings
+05-23 11:27:40.902   592   592 I am_create_service: [0,1113277704,.LocalTransportService,1000,592]
+05-23 11:27:40.912   592   592 I backup_data_changed: com.android.browser
+05-23 11:27:40.912   592   592 I backup_data_changed: com.android.providers.userdictionary
+05-23 11:27:40.912   592   592 I backup_data_changed: com.android.sharedstoragebackup
+05-23 11:27:40.912   592   592 I backup_data_changed: android
+05-23 11:27:40.912   592   592 I backup_data_changed: com.android.dialer
+05-23 11:27:40.912   592   592 I backup_data_changed: com.android.providers.settings
+05-23 11:27:41.002   592   592 I am_fork_process_time: [0,Fork .keyguard takes: 15ms]
+05-23 11:27:41.002   592   592 I am_proc_start: [0,671,10008,com.android.systemui,service,com.android.keyguard/.KeyguardService]
+05-23 11:27:41.072   592   592 I am_wtf  : [0,592,system_server,-1,SystemServer,Unable to find app for caller android.app.ActivityThread$ApplicationThread@425ee938 (pid=592) when registering receiver android.app.LoadedApk$ReceiverDispatcher$InnerReceiver@425ef4b0]
+05-23 11:27:41.082   592   603 I am_proc_bound: [0,671,com.android.systemui]
+05-23 11:27:41.092   592   603 I am_create_service: [0,1113447368,.KeyguardService,10008,671]
+05-23 11:27:43.945   592   592 I am_fork_process_time: [0,Fork .phone takes: 20ms]
+05-23 11:27:43.945   592   592 I am_proc_start: [0,700,1001,com.android.phone,added application,com.android.phone]
+05-23 11:27:43.945   592   592 I boot_progress_ams_ready: 43699
+05-23 11:27:43.965   592   592 I am_create_service: [0,1113125696,.SystemUIService,10008,671]
+05-23 11:27:43.975   592   602 I am_proc_bound: [0,700,com.android.phone]
+05-23 11:27:44.946   592   611 I notification_enqueue: [android,17040573,NULL,-1,Notification(pri=0 contentView=android/0x1090067 vibrate=null sound=null defaults=0x0 flags=0x2 kind=[null])]
+05-23 11:27:44.946   592   611 I notification_enqueue: [android,17040581,NULL,-1,Notification(pri=-1 contentView=android/0x1090067 vibrate=null sound=null defaults=0x0 flags=0x2 kind=[null])]
+05-23 11:27:44.946   592   592 I configuration_changed: 512
+05-23 11:27:44.976   592   607 I am_fork_process_time: [0,Fork .settings takes: 14ms]
+05-23 11:27:44.976   592   607 I am_proc_start: [0,770,1000,com.android.settings,broadcast,com.android.settings/com.sprd.settings.SprdUsbReceiver]
+05-23 11:27:45.086   592   686 I am_proc_bound: [0,770,com.android.settings]
+05-23 11:27:45.166   592   592 I am_create_service: [0,1113767352,.ImageWallpaper,10008,671]
+05-23 11:27:45.216   592   592 I am_fork_process_time: [0,Fork .inputmethod takes: 34ms]
+05-23 11:27:45.216   592   592 I am_proc_start: [0,785,10047,com.iflytek.inputmethod,service,com.iflytek.inputmethod/.FlyIME]
+05-23 11:27:45.246   592   603 I am_proc_bound: [0,785,com.iflytek.inputmethod]
+05-23 11:27:45.256   592   603 I am_create_service: [0,1113794888,.FlyIME,10047,785]
+05-23 11:27:46.157   592   668 I backup_data_changed: android
+05-23 11:27:46.207   592   668 I backup_data_changed: android
+05-23 11:27:46.217   592   668 I backup_data_changed: android
+05-23 11:27:46.217   592   668 I backup_data_changed: android
+05-23 11:27:46.227   592   668 I backup_data_changed: android
+05-23 11:27:46.227   592   668 I backup_data_changed: android
+05-23 11:27:46.277   592   668 I backup_data_changed: android
+05-23 11:27:46.297   592   668 I backup_data_changed: android
+05-23 11:27:46.377   592   821 I am_create_service: [0,1114262128,.TelephonyDebugService,1001,700]
+05-23 11:27:46.458   592   686 I am_fork_process_time: [0,Fork .contacts takes: 33ms]
+05-23 11:27:46.458   592   686 I am_proc_start: [0,823,10015,android.process.acore,content provider,com.android.providers.contacts/.CallLogProvider]
+05-23 11:27:46.458   592   806 I am_create_service: [0,1114270280,.BluetoothPhoneService,1001,700]
+05-23 11:27:46.468   592   602 I force_gc: Binder
+05-23 11:27:46.568   592   603 I am_proc_bound: [0,823,android.process.acore]
+05-23 11:27:46.768   592   821 I am_create_service: [0,1111291488,.RadioInteractorService,1001,700]
+05-23 11:27:46.978   592   821 I am_fork_process_time: [0,Fork .dialer takes: 19ms]
+05-23 11:27:46.978   592   821 I am_proc_start: [0,839,10043,com.android.incallui,service,com.android.dialer/com.sprd.incallui.VideoCallHandlerService]
+05-23 11:27:46.988   592   806 I am_create_service: [0,1111999672,.SyncSimAccountsWatchdog,10015,823]
+05-23 11:27:47.058   592   806 I am_proc_bound: [0,839,com.android.incallui]
+05-23 11:27:47.058   592   806 I am_create_service: [0,1111462392,.VideoCallHandlerService,10043,839]
+05-23 11:27:47.068   592   806 I am_create_service: [0,1111462936,.CallHandlerService,10043,839]
+05-23 11:27:47.318   592   592 I am_create_service: [0,1112111808,.FusedLocationService,1000,592]
+05-23 11:27:47.358   592   592 I am_create_service: [0,1112272984,.GeofenceHardwareService,1000,592]
+05-23 11:27:47.468   592   592 I am_fork_process_time: [0,Fork .validator takes: 31ms]
+05-23 11:27:47.468   592   592 I am_proc_start: [0,875,1000,com.spreadst.validator,added application,com.spreadst.validator]
+05-23 11:27:47.489   592   592 I am_fork_process_time: [0,Fork .modemassert takes: 30ms]
+05-23 11:27:47.499   592   592 I am_proc_start: [0,879,10002,com.android.modemassert,added application,com.android.modemassert]
+05-23 11:27:47.559   592   592 I am_fork_process_time: [0,Fork .mmsg takes: 60ms]
+05-23 11:27:47.569   592   592 I am_proc_start: [0,885,10044,com.tihomobi.mmshell.mmsg,added application,com.tihomobi.mmshell.mmsg]
+05-23 11:27:47.619   592   592 I am_fork_process_time: [0,Fork .kk takes: 56ms]
+05-23 11:27:47.619   592   592 I am_proc_start: [0,898,10030,com.tihomobi.mmshell.kk,added application,com.tihomobi.mmshell.kk]
+05-23 11:27:47.729   592   592 I am_create_task: [0,1]
+05-23 11:27:47.729   592   592 I am_create_activity: [0,1112947488,1,com.alading.launcher/.MainActivity,android.intent.action.MAIN,NULL,NULL,268435456]
+05-23 11:27:47.729   592   592 I wm_task_created: [1,0]
+05-23 11:27:47.729   592   592 I wm_task_moved: [1,1,0]
+05-23 11:27:47.729   592   592 I wm_home_stack_moved: 1
+05-23 11:27:47.759   592   592 I am_fork_process_time: [0,Fork .launcher takes: 21ms]
+05-23 11:27:47.759   592   592 I am_proc_start: [0,925,10050,com.alading.launcher,activity,com.alading.launcher/.MainActivity]
+05-23 11:27:47.779   592   866 I am_proc_bound: [0,879,com.android.modemassert]
+05-23 11:27:47.799   592   686 I am_proc_bound: [0,898,com.tihomobi.mmshell.kk]
+05-23 11:27:47.799   592   806 I am_proc_bound: [0,885,com.tihomobi.mmshell.mmsg]
+05-23 11:27:47.809   700   700 I gsm_service_state_change: [1,1,3,3]
+05-23 11:27:47.819   592   821 I am_proc_bound: [0,875,com.spreadst.validator]
+05-23 11:27:48.059   592   940 I free_storage_left: [45469696,25239552,24330240]
+05-23 11:27:48.059   592   940 I free_storage_changed: 45469696
+05-23 11:27:48.249   592   668 I backup_data_changed: android
+05-23 11:27:48.920   592   821 I dvm_lock_sample: [system_server,1,Binder_5,67,ActivityManagerService.java,14419,BroadcastQueue.java,685,13]
+05-23 11:27:48.990   592   821 I am_proc_bound: [0,925,com.alading.launcher]
+05-23 11:27:49.000   592   821 I am_restart_activity: [0,1112947488,1,com.alading.launcher/.MainActivity]
+05-23 11:27:49.460   592   603 I dvm_lock_sample: [system_server,1,Binder_2,424,ActivityManagerService.java,14419,BroadcastQueue.java,685,84]
+05-23 11:27:49.851   592   603 I dvm_lock_sample: [system_server,1,Binder_2,118,ActivityManagerService.java,14419,BroadcastQueue.java,685,23]
+05-23 11:27:49.941   700   700 I gsm_service_state_change: [1,1,3,3]
+05-23 11:27:50.051   592   602 I dvm_lock_sample: [system_server,0,Binder_1,43,ActivityManagerService.java,13483,BroadcastQueue.java,685,8]
+05-23 11:27:50.822   592   592 I notification_cancel: [com.android.phone,65640,NULL,0,0,64]
+05-23 11:27:50.822   592   592 I notification_cancel: [com.android.phone,65741,NULL,0,0,64]
+05-23 11:27:50.822   592   592 I notification_cancel: [com.android.phone,65851,NULL,0,0,64]
+05-23 11:27:50.822   592   592 I notification_cancel: [com.android.phone,65641,NULL,0,0,64]
+05-23 11:27:50.822   592   592 I notification_cancel: [com.android.phone,65742,NULL,0,0,64]
+05-23 11:27:50.822   592   592 I notification_cancel: [com.android.phone,65852,NULL,0,0,64]
+05-23 11:27:51.542   592   592 I notification_cancel: [com.iflytek.inputmethod,0,NULL,0,0,64]
+05-23 11:27:51.562   592   821 I am_create_service: [0,1113857240,.ImeAdapterService,10047,785]
+05-23 11:27:51.572   592   806 I am_create_service: [0,1113860424,.ImeDecoderService,10047,785]
+05-23 11:27:51.572   592   603 I am_create_service: [0,1113918928,.PluginService,10047,785]
+05-23 11:27:51.963   592   866 I wm_stack_created: [1,0,6,100]
+05-23 11:27:51.973   592   866 I am_create_task: [0,2]
+05-23 11:27:51.973   592   866 I am_create_activity: [0,1112705872,2,com.android.settings/com.sprd.settings.SprdUsbSettings,com.sprd.settings.APPLICATION_SPRD_USB_SETTINGS,NULL,NULL,278921216]
+05-23 11:27:51.973   592   866 I wm_task_created: [2,1]
+05-23 11:27:51.973   592   866 I wm_task_moved: [2,1,1]
+05-23 11:27:51.973   592   866 I wm_home_stack_moved: 0
+05-23 11:27:51.973   592   866 I am_pause_activity: [0,1112947488,com.alading.launcher/.MainActivity]
+05-23 11:27:52.203   592   821 I am_fork_process_time: [0,Fork .media takes: 24ms]
+05-23 11:27:52.203   592   821 I am_proc_start: [0,978,10025,android.process.media,broadcast,com.android.providers.media/.MtpReceiver]
+05-23 11:27:52.313   592   821 I am_proc_bound: [0,978,android.process.media]
+05-23 11:27:52.593   592   607 I dvm_lock_sample: [system_server,1,ActivityManager,265,ActivityManagerService.java,3331,-,5527,53]
+05-23 11:27:52.593   592   602 I dvm_lock_sample: [system_server,0,Binder_1,220,ActivityManagerService.java,13483,-,5527,44]
+05-23 11:27:52.624   592   592 I notification_cancel: [com.android.dialer,1,NULL,0,0,64]
+05-23 11:27:52.624   592   607 I am_resume_activity: [0,1112705872,2,com.android.settings/com.sprd.settings.SprdUsbSettings]
+05-23 11:27:53.274   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.284   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.284   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.284   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.284   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.284   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.284   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.294   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.294   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.294   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.304   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.304   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.304   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.314   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.314   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.314   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.314   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.324   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.334   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.344   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.354   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.354   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.354   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.364   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.364   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.364   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.364   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.364   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.364   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.374   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.374   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.374   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.374   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.384   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.384   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.384   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.384   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.384   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.394   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.404   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.404   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.404   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.404   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.404   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.404   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.414   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.414   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.414   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.414   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.414   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:53.434   592   603 I configuration_changed: 3
+05-23 11:27:53.524   592   603 I am_relaunch_resume_activity: [0,1112705872,2,com.android.settings/com.sprd.settings.SprdUsbSettings]
+05-23 11:27:53.685   785   881 I dvm_lock_sample: [com.iflytek.inputmethod,0,WorkThreadHandler,686,AssetManager.java,573,-,326,100]
+05-23 11:27:54.255   770   770 I am_on_create_time: [0,.SprdUsbSettings onCreate() takes: 1335ms]
+05-23 11:27:54.335   770   770 I am_on_resume_called: [0,com.sprd.settings.SprdUsbSettings]
+05-23 11:27:54.335   770   770 I am_on_resume_time: [0,.SprdUsbSettings onResume() takes: 51ms]
+05-23 11:27:54.676   592   602 I am_create_service: [0,1111172472,.StkAppService,1001,700]
+05-23 11:27:54.676   770   770 I am_on_resume_called: [0,com.sprd.settings.SprdUsbSettings]
+05-23 11:27:54.676   770   770 I am_on_resume_time: [0,.SprdUsbSettings onResume() takes: 86ms]
+05-23 11:27:54.686   770   770 I am_on_paused_called: [0,com.sprd.settings.SprdUsbSettings]
+05-23 11:27:54.686   770   770 I am_on_pause_time: [0,.SprdUsbSettings onPause() takes: 1ms]
+05-23 11:27:55.036   770   770 I am_on_create_time: [0,.SprdUsbSettings onCreate() takes: 222ms]
+05-23 11:27:55.066   770   770 I am_on_resume_called: [0,com.sprd.settings.SprdUsbSettings]
+05-23 11:27:55.066   770   770 I am_on_resume_time: [0,.SprdUsbSettings onResume() takes: 25ms]
+05-23 11:27:56.337   592   602 I am_create_service: [0,1112397552,.MediaScannerService,10025,978]
+05-23 11:27:57.308   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:57.308   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:57.308   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:57.338   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:57.348   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:57.348   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:57.348   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:57.348   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:57.348   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:57.348   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:27:57.979   592   606 I am_activity_launch_time: [0,1112705872,com.android.settings/com.sprd.settings.SprdUsbSettings,5656,5656]
+05-23 11:27:59.270   592   806 I boot_progress_enable_screen: 59028
+05-23 11:27:59.550   592   995 I am_create_service: [0,1112469880,.DownloadService,10025,978]
+05-23 11:27:59.821   700   700 I gsm_service_state_change: [3,3,1,1]
+05-23 11:27:59.921   592   592 I notification_cancel: [com.android.phone,65741,NULL,0,0,64]
+05-23 11:28:01.572   592   866 I am_create_service: [0,1112661552,.MtpService,10025,978]
+05-23 11:28:01.487   700   700 I gsm_service_state_change: [1,1,0,0]
+05-23 11:28:01.487   700   700 I gsm_rat_switched_new: [47155461,0,14]
+05-23 11:28:02.878   592   821 I notification_cancel_all: [com.android.providers.downloads,0,0,64]
+05-23 11:28:03.119   925   925 I am_on_create_time: [0,.MainActivity onCreate() takes: 13377ms]
+05-23 11:28:03.119   925   925 I am_on_resume_called: [0,com.alading.launcher.MainActivity]
+05-23 11:28:03.119   925   925 I am_on_resume_time: [0,.MainActivity onResume() takes: 0ms]
+05-23 11:28:03.339   925   925 I am_on_paused_called: [0,com.alading.launcher.MainActivity]
+05-23 11:28:03.339   925   925 I am_on_pause_time: [0,.MainActivity onPause() takes: 1ms]
+05-23 11:28:03.389   592   602 I am_failed_to_pause: [0,1112947488,com.alading.launcher/.MainActivity,(none)]
+05-23 11:28:04.019   592   806 I am_destroy_service: [0,1112469880,978]
+05-23 11:28:04.029   592   607 I dvm_lock_sample: [system_server,1,ActivityManager,267,BroadcastQueue.java,685,ActivityManagerService.java,13338,53]
+05-23 11:28:05.060   592   658 I connectivity_state_changed: [0,13,2]
+05-23 11:28:05.531   592   592 I notification_cancel: [com.android.phone,65741,NULL,0,0,64]
+05-23 11:28:05.971   592   592 I notification_cancel: [android,5,CaptivePortal.Notification,0,0,0]
+05-23 11:28:06.081   592   658 I connectivity_state_changed: [0,13,5]
+05-23 11:28:06.352   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.352   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.352   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.352   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.362   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.362   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.372   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.552   592   608 I am_fork_process_time: [0,Fork .printspooler takes: 115ms]
+05-23 11:28:06.552   592   608 I am_proc_start: [0,1117,10038,com.android.printspooler,service,com.android.printspooler/.PrintSpoolerService]
+05-23 11:28:06.572   592   602 I dvm_lock_sample: [system_server,0,Binder_1,161,ActivityManagerService.java,14525,-,13445,32]
+05-23 11:28:06.572   592   995 I dvm_lock_sample: [system_server,1,Binder_7,108,ActivityManagerService.java,14419,-,13445,21]
+05-23 11:28:06.582   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.582   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.592   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.592   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.602   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.602   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.602   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.602   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.602   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.602   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.602   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.632   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.642   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.652   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.662   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.662   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.662   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.662   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.662   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.662   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.672   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:06.962   592   651 I netstats_mobile_sample: [0,0,0,0,0,0,0,0,0,0,0,0,-1]
+05-23 11:28:06.962   592   651 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,0,0,0,0,-1]
+05-23 11:28:07.092   592   806 I am_create_service: [0,1112728128,.ReadFDNService,1001,700]
+05-23 11:28:07.463   592   592 I notification_cancel: [com.android.phone,7,NULL,0,0,64]
+05-23 11:28:07.483   592   686 I am_proc_bound: [0,1117,com.android.printspooler]
+05-23 11:28:07.493   592   686 I am_create_service: [0,1112490816,.PrintSpoolerService,10038,1117]
+05-23 11:28:08.664   592   603 I am_fork_process_time: [0,Fork .mms takes: 17ms]
+05-23 11:28:08.664   592   603 I am_proc_start: [0,1151,10016,com.android.mms,broadcast,com.android.mms/.transaction.MmsSystemEventReceiver]
+05-23 11:28:08.664   157   157 I sf_frame_dur: [BootAnimation,10,603,31,2,1,0,0]
+05-23 11:28:08.694   592   866 I am_proc_bound: [0,1151,com.android.mms]
+05-23 11:28:08.864   592   592 I dvm_lock_sample: [system_server,1,main,148,LocationManagerService.java,943,-,569,29]
+05-23 11:28:09.495   592   668 I backup_data_changed: android
+05-23 11:28:09.585   592   668 I backup_data_changed: android
+05-23 11:28:09.875   592   668 I backup_data_changed: android
+05-23 11:28:09.895   592   668 I backup_data_changed: android
+05-23 11:28:09.925   592   668 I backup_data_changed: android
+05-23 11:28:09.925   592   668 I backup_data_changed: android
+05-23 11:28:10.025   700   819 I force_gc: Binder
+05-23 11:28:10.626   592   686 I am_fork_process_time: [0,Fork .pico takes: 14ms]
+05-23 11:28:10.626   592   686 I am_proc_start: [0,1168,10013,com.svox.pico,service,com.svox.pico/.PicoService]
+05-23 11:28:10.666   592   806 I am_proc_bound: [0,1168,com.svox.pico]
+05-23 11:28:10.736   592   806 I am_create_service: [0,1113723208,.PicoService,10013,1168]
+05-23 11:28:12.788   592   592 I notification_cancel: [android,2,NULL,0,0,0]
+05-23 11:28:12.828   592   806 I am_fork_process_time: [0,Fork .contacts takes: 19ms]
+05-23 11:28:12.828   592   806 I am_proc_start: [0,1194,10015,com.android.contacts,service,com.android.contacts/com.sprd.contacts.account.USimAuthenticationService]
+05-23 11:28:12.858   592   995 I am_proc_bound: [0,1194,com.android.contacts]
+05-23 11:28:12.858   592   995 I am_create_service: [0,1113847824,.USimAuthenticationService,10015,1194]
+05-23 11:28:13.399   592   668 I backup_data_changed: android
+05-23 11:28:13.509   592   602 I am_destroy_service: [0,1113847824,1194]
+05-23 11:28:13.699   592   686 I am_destroy_service: [0,1112490816,1117]
+05-23 11:28:13.989   592   603 I am_create_service: [0,1112685064,.TransactionService,10016,1151]
+05-23 11:28:13.999   592   866 I am_create_service: [0,1113062536,.SprdTransactionService1,10016,1151]
+05-23 11:28:14.700   592   603 I am_fork_process_time: [0,Fork .cellbroadcastreceiver takes: 19ms]
+05-23 11:28:14.700   592   603 I am_proc_start: [0,1215,10035,com.android.cellbroadcastreceiver,broadcast,com.android.cellbroadcastreceiver/.CellBroadcastReceiver]
+05-23 11:28:14.750   592   806 I am_proc_bound: [0,1215,com.android.cellbroadcastreceiver]
+05-23 11:28:14.820   592   866 I notification_cancel_all: [com.android.contacts,0,0,64]
+05-23 11:28:15.180   592   602 I am_create_service: [0,1114377872,.BatchOperationService,10015,1194]
+05-23 11:28:15.270   592   668 I backup_data_changed: android
+05-23 11:28:15.330   592   686 I am_create_service: [0,1111295864,.VCardService,10015,1194]
+05-23 11:28:16.472   671   671 I screen_toggled: 2
+05-23 11:28:17.533   592   686 I dvm_lock_sample: [system_server,1,Binder_3,22,ConnectivityService.java,969,-,1176,4]
+05-23 11:28:18.083   157   157 I sf_frame_dur: [Keyguard,0,0,0,0,3,6,1]
+05-23 11:28:18.363   592   806 I am_destroy_service: [0,1112685064,1151]
+05-23 11:28:18.414   592   995 I am_destroy_service: [0,1113062536,1151]
+05-23 11:28:18.444   592   995 I am_fork_process_time: [0,Fork .indication takes: 26ms]
+05-23 11:28:18.444   592   995 I am_proc_start: [0,1264,10040,com.tihomobi.sms.indication,broadcast,com.tihomobi.sms.indication/.Receiver]
+05-23 11:28:18.504   592   686 I am_proc_bound: [0,1264,com.tihomobi.sms.indication]
+05-23 11:28:18.584   592   607 I dvm_lock_sample: [system_server,1,ActivityManager,63,ActivityManagerService.java,3331,-,5527,12]
+05-23 11:28:18.604   592   866 I am_proc_died: [0,1117,com.android.printspooler]
+05-23 11:28:18.644   592   603 I dvm_lock_sample: [system_server,1,Binder_2,53,ActivityManagerService.java,14419,no_method,0,10]
+05-23 11:28:19.394   592   821 I am_create_service: [0,1113719344,.TihoTimeTickService,10040,1264]
+05-23 11:28:22.337   592   602 I force_gc: Binder
+05-23 11:28:27.532   592   866 I force_gc: Binder
+05-23 11:28:32.828   592   995 I force_gc: Binder
+05-23 11:28:34.519   592   821 I am_fork_process_time: [0,Fork .dialer takes: 16ms]
+05-23 11:28:34.519   592   821 I am_proc_start: [0,1294,10043,com.android.dialer,broadcast,com.android.dialer/.calllog.CallLogReceiver]
+05-23 11:28:34.609   592   806 I am_proc_bound: [0,1294,com.android.dialer]
+05-23 11:28:34.860   592   602 I am_create_service: [0,1110879112,.CallLogNotificationsService,10043,1294]
+05-23 11:28:35.220   592   592 I notification_cancel: [com.android.dialer,1,DefaultVoicemailNotifier,0,0,64]
+05-23 11:28:35.220   592   821 I am_destroy_service: [0,1110879112,1294]
+05-23 11:28:35.310   592  1309 I free_storage_changed: 39522304
+05-23 11:28:35.380   592   686 I am_proc_died: [0,1215,com.android.cellbroadcastreceiver]
+05-23 11:28:35.630   592   602 I am_fork_process_time: [0,Fork .calendar takes: 33ms]
+05-23 11:28:35.630   592   602 I am_proc_start: [0,1318,10009,com.android.providers.calendar,broadcast,com.android.providers.calendar/.CalendarReceiver]
+05-23 11:28:35.650   592   686 I am_proc_bound: [0,1318,com.android.providers.calendar]
+05-23 11:28:36.201   592   806 I am_create_service: [0,1112378768,.RegisterService,10050,925]
+05-23 11:28:36.371   592   686 I am_create_service: [0,1113036368,.EmptyService,10009,1318]
+05-23 11:28:37.422   592   821 I am_destroy_service: [0,1113036368,1318]
+05-23 11:28:42.197   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:28:42.237   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:28:42.487   592   686 I am_proc_died: [0,1194,com.android.contacts]
+05-23 11:28:42.487   592   686 I am_destroy_service: [0,1114377872,-1]
+05-23 11:28:42.487   592   686 I am_destroy_service: [0,1111295864,-1]
+05-23 11:28:44.479   592   658 I connectivity_state_changed: [1,0,8]
+05-23 11:28:44.799   592   651 I netstats_mobile_sample: [24780,31,2365,27,24220,17,2365,27,24737,18,2352,27,-1]
+05-23 11:28:44.799   592   651 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,0,0,0,0,-1]
+05-23 11:28:44.869   592   651 I netstats_mobile_sample: [24780,31,2365,27,24220,17,2365,27,24737,18,2428,28,-1]
+05-23 11:28:44.869   592   651 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,0,0,0,0,-1]
+05-23 11:28:46.811   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:28:46.841   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:28:51.356   592   602 I am_create_service: [0,1113665440,.SmsReceiverService,10016,1151]
+05-23 11:28:51.426   592   602 I am_create_service: [0,1113672960,.TransactionService,10016,1151]
+05-23 11:28:51.446   592   995 I am_create_service: [0,1113674816,.SprdTransactionService1,10016,1151]
+05-23 11:28:51.716   592   602 I am_destroy_service: [0,1113672960,1151]
+05-23 11:28:51.806   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:28:51.846   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:28:51.966   592   995 I am_destroy_service: [0,1113674816,1151]
+05-23 11:28:52.116   592   821 I notification_enqueue: [com.android.mms,123,NULL,0,Notification(pri=0 contentView=com.android.mms/0x1090067 vibrate=null sound=null defaults=0x4 flags=0x1 kind=[android.message])]
+05-23 11:28:53.167   592   821 I notification_enqueue: [com.android.mms,123,NULL,0,Notification(pri=0 contentView=com.android.mms/0x1090067 vibrate=null sound=content://settings/system/notification_sound defaults=0x4 flags=0x1 kind=[android.message])]
+05-23 11:28:54.198   592  1395 I am_destroy_service: [0,1113665440,1151]
+05-23 11:28:54.228   592  1395 I am_fork_process_time: [0,Fork .onetimeinitializer takes: 23ms]
+05-23 11:28:54.228   592  1395 I am_proc_start: [0,1404,10021,com.android.onetimeinitializer,broadcast,com.android.onetimeinitializer/.OneTimeInitializerReceiver]
+05-23 11:28:54.389   592   821 I am_proc_bound: [0,1404,com.android.onetimeinitializer]
+05-23 11:28:55.059   592   603 I am_create_service: [0,1112635528,.OneTimeInitializerService,10021,1404]
+05-23 11:28:55.119   592   995 I am_destroy_service: [0,1112635528,1404]
+05-23 11:28:55.149   592   995 I am_fork_process_time: [0,Fork .fota takes: 17ms]
+05-23 11:28:55.149   592   995 I am_proc_start: [0,1447,10027,com.adups.fota,broadcast,com.adups.fota/.MyReceiver]
+05-23 11:28:55.189   592   806 I am_proc_bound: [0,1447,com.adups.fota]
+05-23 11:28:55.259   592   686 I am_proc_died: [0,1294,com.android.dialer]
+05-23 11:28:55.810   592   866 I am_create_service: [0,1113113136,.MyIntentService,10027,1447]
+05-23 11:28:56.050   592   686 I am_destroy_service: [0,1113113136,1447]
+05-23 11:28:56.070   592  1401 I am_create_service: [0,1113641096,.DownloadService,10025,978]
+05-23 11:28:56.090   592   866 I am_fork_process_time: [0,Fork .engineermode takes: 12ms]
+05-23 11:28:56.090   592   866 I am_proc_start: [0,1487,1000,com.sprd.engineermode,broadcast,com.sprd.engineermode/.debuglog.DebugLogFragment$APRReceiver]
+05-23 11:28:56.100   592   995 I notification_cancel_all: [com.android.providers.downloads,0,0,64]
+05-23 11:28:56.110   592   603 I am_proc_bound: [0,1487,com.sprd.engineermode]
+05-23 11:28:56.180   592   806 I am_proc_died: [0,1318,com.android.providers.calendar]
+05-23 11:28:56.210   592  1395 I am_destroy_service: [0,1113641096,978]
+05-23 11:28:56.511   592   602 I am_create_service: [0,1113963880,.APRService,1000,1487]
+05-23 11:28:56.801   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:28:56.851   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:28:57.031   592   821 I am_proc_died: [0,1151,com.android.mms]
+05-23 11:28:57.051   592   821 I am_destroy_service: [0,1113723208,1168]
+05-23 11:29:01.816   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:01.846   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:06.811   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:06.851   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:11.816   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:11.836   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:12.086   592   602 I am_create_service: [0,1113822624,.SlogService,1000,1487]
+05-23 11:29:12.176   592   603 I am_destroy_service: [0,1113822624,1487]
+05-23 11:29:12.346   592  1395 I am_fork_process_time: [0,Fork .deskclock takes: 19ms]
+05-23 11:29:12.346   592  1395 I am_proc_start: [0,1550,1000,com.android.deskclock,broadcast,com.android.deskclock/.AlarmInitReceiver]
+05-23 11:29:12.386   592   866 I am_proc_bound: [0,1550,com.android.deskclock]
+05-23 11:29:12.797   592   686 I am_fork_process_time: [0,Fork .cellbroadcastreceiver takes: 10ms]
+05-23 11:29:12.797   592   686 I am_proc_start: [0,1565,10035,com.android.cellbroadcastreceiver,broadcast,com.android.cellbroadcastreceiver/.CellBroadcastReceiver]
+05-23 11:29:12.847   592   995 I am_proc_bound: [0,1565,com.android.cellbroadcastreceiver]
+05-23 11:29:12.877   592  1395 I am_proc_died: [0,1168,com.svox.pico]
+05-23 11:29:13.087   592  1395 I am_fork_process_time: [0,Fork .cmccwatchsdk takes: 19ms]
+05-23 11:29:13.087   592  1395 I am_proc_start: [0,1579,1000,com.toycloud.cmccwatchsdk,broadcast,com.toycloud.cmccwatchsdk/com.iflytek.pushclient.manager.PushServiceReceiver]
+05-23 11:29:13.107   592  1394 I am_proc_bound: [0,1579,com.toycloud.cmccwatchsdk]
+05-23 11:29:13.387   592   607 I dvm_lock_sample: [system_server,1,ActivityManager,255,ActivityManagerService.java,3331,-,5527,51]
+05-23 11:29:13.407   592  1401 I am_proc_died: [0,1404,com.android.onetimeinitializer]
+05-23 11:29:13.768   592  1401 I am_create_service: [0,1114026040,.PushService,1000,1579]
+05-23 11:29:16.820   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:16.861   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:21.825   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:21.865   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:23.757   592  1395 I am_create_task: [0,3]
+05-23 11:29:23.757   592  1395 I am_create_activity: [0,1114297120,3,com.android.stk/.StkDialogActivity,NULL,NULL,stk://com.android.stk/dialog/1527046163717,277086208]
+05-23 11:29:23.757   592  1395 I wm_task_created: [3,1]
+05-23 11:29:23.767   592  1395 I wm_task_moved: [3,1,2]
+05-23 11:29:23.767   592  1395 I wm_home_stack_moved: 0
+05-23 11:29:23.767   592  1395 I am_pause_activity: [0,1112705872,com.android.settings/com.sprd.settings.SprdUsbSettings]
+05-23 11:29:23.927   592  1395 I dvm_lock_sample: [system_server,1,Binder_9,112,WindowManagerService.java,6989,-,5623,22]
+05-23 11:29:23.957   770   770 I am_on_paused_called: [0,com.sprd.settings.SprdUsbSettings]
+05-23 11:29:23.957   770   770 I am_on_pause_time: [0,.SprdUsbSettings onPause() takes: 163ms]
+05-23 11:29:23.977   592   602 I am_restart_activity: [0,1114297120,3,com.android.stk/.StkDialogActivity]
+05-23 11:29:24.258   700   700 I am_on_create_time: [0,.StkDialogActivity onCreate() takes: 248ms]
+05-23 11:29:24.278   700   700 I am_on_resume_called: [0,com.android.stk.StkDialogActivity]
+05-23 11:29:24.278   700   700 I am_on_resume_time: [0,.StkDialogActivity onResume() takes: 16ms]
+05-23 11:29:24.598   592   606 I am_activity_launch_time: [0,1114297120,com.android.stk/.StkDialogActivity,641,641]
+05-23 11:29:26.810   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:26.840   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:28.842   592   603 I am_fork_process_time: [0,Fork .mms takes: 36ms]
+05-23 11:29:28.842   592   603 I am_proc_start: [0,1626,10016,com.android.mms,broadcast,com.android.mms/.transaction.MmsSystemEventReceiver]
+05-23 11:29:28.902   592  1401 I am_proc_bound: [0,1626,com.android.mms]
+05-23 11:29:29.253   592   806 I am_fork_process_time: [0,Fork .pico takes: 60ms]
+05-23 11:29:29.253   592   806 I am_proc_start: [0,1638,10013,com.svox.pico,service,com.svox.pico/.PicoService]
+05-23 11:29:29.283   592   602 I am_proc_bound: [0,1638,com.svox.pico]
+05-23 11:29:29.343   592   602 I am_create_service: [0,1114064936,.PicoService,10013,1638]
+05-23 11:29:29.753   592  1394 I am_create_service: [0,1111529032,.TransactionService,10016,1626]
+05-23 11:29:29.763   592  1395 I am_create_service: [0,1112531528,.SprdTransactionService1,10016,1626]
+05-23 11:29:29.993   592   995 I wm_task_moved: [2,1,2]
+05-23 11:29:29.993   592   995 I wm_home_stack_moved: 0
+05-23 11:29:30.003   592   995 I am_pause_activity: [0,1114297120,com.android.stk/.StkDialogActivity]
+05-23 11:29:30.003   700   700 I am_on_paused_called: [0,com.android.stk.StkDialogActivity]
+05-23 11:29:30.003   700   700 I am_on_pause_time: [0,.StkDialogActivity onPause() takes: 1ms]
+05-23 11:29:30.023   592   995 I am_task_to_front: [0,2]
+05-23 11:29:30.023   592   995 I am_new_intent: [0,1109612984,2,com.android.settings/com.sprd.settings.SprdUsbSettings,com.sprd.settings.APPLICATION_SPRD_USB_SETTINGS,NULL,NULL,283115520]
+05-23 11:29:30.033   592   603 I am_resume_activity: [0,1112705872,2,com.android.settings/com.sprd.settings.SprdUsbSettings]
+05-23 11:29:30.133   157   157 I sf_frame_dur: [com.android.stk/com.android.stk.StkDialogActivity,14,0,1,0,1,0,0]
+05-23 11:29:30.153   770   770 I am_on_resume_called: [0,com.sprd.settings.SprdUsbSettings]
+05-23 11:29:30.153   770   770 I am_on_resume_time: [0,.SprdUsbSettings onResume() takes: 123ms]
+05-23 11:29:30.274   592   602 I am_destroy_service: [0,1111529032,1626]
+05-23 11:29:30.314   592  1394 I am_destroy_service: [0,1112531528,1626]
+05-23 11:29:30.624   592   995 I am_create_service: [0,1113863864,.TransactionService,10016,1626]
+05-23 11:29:30.634   592   686 I am_create_service: [0,1113937344,.CellBroadcastConfigService,10035,1565]
+05-23 11:29:30.724   592   821 I am_destroy_service: [0,1113863864,1626]
+05-23 11:29:31.174   592   603 I am_proc_died: [0,1550,com.android.deskclock]
+05-23 11:29:31.295   592   866 I am_proc_died: [0,1626,com.android.mms]
+05-23 11:29:31.295   592   866 I am_destroy_service: [0,1114064936,1638]
+05-23 11:29:31.295   592   866 I am_low_memory: 19
+05-23 11:29:31.625   592   995 I am_destroy_service: [0,1113937344,1565]
+05-23 11:29:31.795   592   806 I am_create_service: [0,1114223080,.DLProxyService,10030,898]
+05-23 11:29:31.985   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:32.025   592   995 I am_create_service: [0,1114681680,.DLProxyService,10044,885]
+05-23 11:29:32.035   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:32.065   592   602 I am_create_service: [0,1114802112,.MyIntentService,10027,1447]
+05-23 11:29:32.276   592  1395 I am_proc_died: [0,1638,com.svox.pico]
+05-23 11:29:33.647   592   603 I am_proc_died: [0,1565,com.android.cellbroadcastreceiver]
+05-23 11:29:33.647   592   603 I am_low_memory: 17
+05-23 11:29:33.837   592   602 I am_create_service: [0,1113643728,.ReportIntentService,10027,1447]
+05-23 11:29:34.488   592  1395 I am_create_service: [0,1114735504,.TaskIntentService,10027,1447]
+05-23 11:29:34.768   592   806 I am_create_service: [0,1112462584,.AmcPackIntentService,10027,1447]
+05-23 11:29:34.838   592   602 I am_create_service: [0,1114749008,.DownloadService,10025,978]
+05-23 11:29:34.868   592   603 I am_destroy_service: [0,1114735504,1447]
+05-23 11:29:34.918   592   866 I notification_cancel_all: [com.android.providers.downloads,0,0,64]
+05-23 11:29:35.289   592   602 I am_destroy_service: [0,1114749008,978]
+05-23 11:29:35.289   592  1401 I am_destroy_service: [0,1112462584,1447]
+05-23 11:29:35.549   592   602 I am_create_service: [0,1114615752,.DLProxyService,10040,1264]
+05-23 11:29:35.919   592   806 I am_destroy_service: [0,1114802112,1447]
+05-23 11:29:36.189   592  1395 I am_destroy_service: [0,1113643728,1447]
+05-23 11:29:36.249   592   603 I am_proc_died: [0,1447,com.adups.fota]
+05-23 11:29:36.249   592   603 I am_low_memory: 16
+05-23 11:29:36.500   592   592 I am_fork_process_time: [0,Fork .browser takes: 32ms]
+05-23 11:29:36.500   592   592 I am_proc_start: [0,1733,10011,com.android.browser,broadcast,com.android.browser/.AccountsChangedReceiver]
+05-23 11:29:36.740   592   652 I netstats_mobile_sample: [33514,91,11974,118,32954,77,11974,118,33039,77,11917,117,1527046177485]
+05-23 11:29:36.750   592   652 I netstats_wifi_sample: [0,0,0,0,0,0,0,0,0,0,0,0,1527046177485]
+05-23 11:29:36.900   592   806 I am_proc_bound: [0,1733,com.android.browser]
+05-23 11:29:37.731   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:38.111   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:29:38.201   592  1395 I am_proc_died: [0,925,com.alading.launcher]
+05-23 11:29:38.502   592  1395 I am_low_memory: 16
+05-23 11:29:40.113   592   603 I am_proc_died: [0,1733,com.android.browser]
+05-23 11:29:40.113   592   603 I am_low_memory: 15
+05-23 11:29:50.714   592   607 I am_fork_process_time: [0,Fork .gallery3d takes: 11ms]
+05-23 11:29:50.714   592   607 I am_proc_start: [0,1804,10010,com.android.gallery3d,broadcast,com.android.gallery3d/.gadget.PhotoAppWidgetProvider]
+05-23 11:29:50.754   592  1401 I am_proc_bound: [0,1804,com.android.gallery3d]
+05-23 11:29:50.804   592   607 I dvm_lock_sample: [system_server,1,ActivityManager,38,ActivityManagerService.java,3331,-,5527,7]
+05-23 11:29:51.194   592   602 I am_fork_process_time: [0,Fork .mms takes: 39ms]
+05-23 11:29:51.194   592   602 I am_proc_start: [0,1816,10016,com.android.mms,broadcast,com.android.mms/.widget.MmsWidgetProvider]
+05-23 11:29:51.214   592   603 I am_proc_bound: [0,1816,com.android.mms]
+05-23 11:29:51.534   592   821 I am_fork_process_time: [0,Fork .pico takes: 11ms]
+05-23 11:29:51.534   592   821 I am_proc_start: [0,1828,10013,com.svox.pico,service,com.svox.pico/.PicoService]
+05-23 11:29:51.604   592   866 I am_proc_bound: [0,1828,com.svox.pico]
+05-23 11:29:51.654   592   866 I am_create_service: [0,1114685568,.PicoService,10013,1828]
+05-23 11:29:52.095   592   603 I am_create_service: [0,1114155592,.TransactionService,10016,1816]
+05-23 11:29:52.095   592  1395 I am_create_service: [0,1114157248,.SprdTransactionService1,10016,1816]
+05-23 11:29:52.365   592   866 I am_destroy_service: [0,1114157248,1816]
+05-23 11:29:52.375   592   686 I am_destroy_service: [0,1114155592,1816]
+05-23 11:29:52.395   592   686 I am_fork_process_time: [0,Fork .browser takes: 24ms]
+05-23 11:29:52.395   592   686 I am_proc_start: [0,1864,10011,com.android.browser,broadcast,com.android.browser/.widget.BookmarkThumbnailWidgetProvider]
+05-23 11:29:52.415   592  1395 I am_proc_bound: [0,1864,com.android.browser]
+05-23 11:29:52.455   592  1394 I am_proc_died: [0,1804,com.android.gallery3d]
+05-23 11:29:52.776   592   686 I am_fork_process_time: [0,Fork .music takes: 49ms]
+05-23 11:29:52.776   592   686 I am_proc_start: [0,1884,10023,com.android.music,broadcast,com.android.music/.MediaAppWidgetProvider]
+05-23 11:29:52.796   592   602 I am_proc_bound: [0,1884,com.android.music]
+05-23 11:29:52.866   592   603 I am_proc_died: [0,1816,com.android.mms]
+05-23 11:29:52.866   592   603 I am_destroy_service: [0,1114685568,1828]
+05-23 11:29:52.996   592   995 I am_fork_process_time: [0,Fork .ramoptimizer takes: 18ms]
+05-23 11:29:52.996   592   995 I am_proc_start: [0,1896,1000,com.sprd.ramoptimizer,broadcast,com.sprd.ramoptimizer/.RamOptWidget]
+05-23 11:29:53.006   592   821 I am_proc_bound: [0,1896,com.sprd.ramoptimizer]
+05-23 11:29:53.196   592   995 I am_create_service: [0,1114619192,.RamOptService,1000,1896]
+05-23 11:29:53.216   592   821 I am_fork_process_time: [0,Fork .deskclock takes: 12ms]
+05-23 11:29:53.216   592   821 I am_proc_start: [0,1908,1000,com.android.deskclock,broadcast,com.android.deskclock/com.android.alarmclock.AnalogAppWidgetProvider]
+05-23 11:29:53.246   592   686 I am_proc_bound: [0,1908,com.android.deskclock]
+05-23 11:29:53.436   592  1401 I am_proc_died: [0,1828,com.svox.pico]
+05-23 11:29:53.666   592   602 I am_fork_process_time: [0,Fork .calendar takes: 18ms]
+05-23 11:29:53.666   592   602 I am_proc_start: [0,1921,10009,com.android.providers.calendar,broadcast,com.android.providers.calendar/.CalendarProviderBroadcastReceiver]
+05-23 11:29:53.686   592   995 I am_proc_bound: [0,1921,com.android.providers.calendar]
+05-23 11:29:53.847   592   995 I am_proc_died: [0,1864,com.android.browser]
+05-23 11:29:54.007   592   995 I am_create_service: [0,1116999824,.CalendarProviderIntentService,10009,1921]
+05-23 11:29:54.137   592   686 I am_destroy_service: [0,1116999824,1921]
+05-23 11:29:54.167   592   602 I am_create_service: [0,1113036368,.EmptyService,10009,1921]
+05-23 11:29:55.178   592   602 I am_destroy_service: [0,1113036368,1921]
+05-23 11:29:55.248   592   866 I am_create_service: [0,1113939824,.DownloadService,10025,978]
+05-23 11:29:55.278   592  1401 I notification_cancel_all: [com.android.providers.downloads,0,0,64]
+05-23 11:29:55.368   592  1395 I am_destroy_service: [0,1113939824,978]
+05-23 11:29:55.939   592   806 I am_finish_activity: [0,1114297120,3,com.android.stk/.StkDialogActivity,app-request]
+05-23 11:29:55.939   592   806 I am_destroy_activity: [0,1114297120,3,com.android.stk/.StkDialogActivity,finish-imm]
+05-23 11:29:56.019   592   607 I am_fork_process_time: [0,Fork .launcher takes: 42ms]
+05-23 11:29:56.019   592   607 I am_proc_start: [0,1944,10050,com.alading.launcher,broadcast,com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver]
+05-23 11:29:56.089   592  1394 I am_proc_bound: [0,1944,com.alading.launcher]
+05-23 11:29:56.159   592  1395 I wm_task_removed: [3,removeTask]
+05-23 11:29:56.169   592  1395 I wm_task_removed: [3,removeAppToken: last token]
+05-23 11:29:56.179   592  1401 I am_proc_died: [0,1884,com.android.music]
+05-23 11:29:56.459   592  1394 I am_crash: [1944,0,com.alading.launcher,14204742,java.lang.NullPointerException,Unable to start receiver com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver: java.lang.NullPointerException,CommandPushReceiver.java,44]
+05-23 11:29:56.509   592  1394 I am_broadcast_discard_app: [0,1117633792,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{426e4ee8 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:29:56.519   592   686 I am_proc_died: [0,1944,com.alading.launcher]
+05-23 11:29:56.519   592   686 I am_broadcast_discard_app: [0,1114640936,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{424ef220 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:29:56.539   592   607 I am_fork_process_time: [0,Fork .launcher takes: 11ms]
+05-23 11:29:56.539   592   607 I am_proc_start: [0,1960,10050,com.alading.launcher,broadcast,com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver]
+05-23 11:29:56.559   592   995 I am_proc_bound: [0,1960,com.alading.launcher]
+05-23 11:29:56.739   592   602 I am_crash: [1960,0,com.alading.launcher,14204742,java.lang.NullPointerException,Unable to start receiver com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver: java.lang.NullPointerException,CommandPushReceiver.java,44]
+05-23 11:29:56.739   592   602 I am_broadcast_discard_app: [0,1114592216,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{423dfeb0 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:29:56.739   592   602 I am_process_crashed_too_much: [0,com.alading.launcher,10050]
+05-23 11:29:56.739   592   602 I am_proc_bad: [0,10050,com.alading.launcher]
+05-23 11:29:56.759   592   602 I am_kill : [0,1960,com.alading.launcher,0,crash]
+05-23 11:29:56.769   592   607 I am_broadcast_discard_app: [0,1113542032,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{425490a8 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:29:56.769   592   607 I am_broadcast_discard_app: [0,1113905488,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{424acdd0 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:29:56.779   592   607 I am_broadcast_discard_app: [0,1114376128,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{42540728 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:29:56.779   592   607 I am_broadcast_discard_app: [0,1114187248,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{4247c690 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:29:56.789   592   607 I am_broadcast_discard_app: [0,1111188680,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{42404ce8 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:29:56.789   592   607 I am_broadcast_discard_app: [0,1113345408,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{42324570 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:29:56.789   592   607 I am_broadcast_discard_app: [0,1111517520,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{429eaa48 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:29:56.799   592   607 I am_broadcast_discard_app: [0,1114108464,com.iflytek.pushclient.action.RECEIVE,0,ResolveInfo{42633e68 com.alading.launcher/com.toycloud.cmccwatchsdk.xpush.CommandPushReceiver m=0x108000}]
+05-23 11:30:06.049   592   592 I force_gc: mem
+05-23 11:30:14.547   700   700 I sqlite_mem_released: 386932
+05-23 11:30:14.567   700   700 I force_gc: mem
+05-23 11:30:19.552   671   671 I sqlite_mem_released: 0
+05-23 11:30:19.572   671   671 I force_gc: mem
+05-23 11:30:19.782   592   821 I am_finish_activity: [0,1112705872,2,com.android.settings/com.sprd.settings.SprdUsbSettings,app-request]
+05-23 11:30:19.792   592   821 I wm_home_stack_moved: 1
+05-23 11:30:19.792   592   821 I wm_task_moved: [1,1,1]
+05-23 11:30:19.792   592   821 I wm_home_stack_moved: 1
+05-23 11:30:19.812   592   821 I am_pause_activity: [0,1112705872,com.android.settings/com.sprd.settings.SprdUsbSettings]
+05-23 11:30:19.862   770   770 I am_on_paused_called: [0,com.sprd.settings.SprdUsbSettings]
+05-23 11:30:19.872   770   770 I am_on_pause_time: [0,.SprdUsbSettings onPause() takes: 18ms]
+05-23 11:30:19.902   592   603 I am_proc_good: [0,10050,com.alading.launcher]
+05-23 11:30:19.912   592   603 I am_fork_process_time: [0,Fork .launcher takes: 14ms]
+05-23 11:30:19.912   592   603 I am_proc_start: [0,1998,10050,com.alading.launcher,activity,com.alading.launcher/.MainActivity]
+05-23 11:30:19.922   592   607 I am_destroy_activity: [0,1112705872,2,com.android.settings/com.sprd.settings.SprdUsbSettings,finish-imm]
+05-23 11:30:20.042   592   686 I am_proc_bound: [0,1998,com.alading.launcher]
+05-23 11:30:20.062   592   686 I am_restart_activity: [0,1112947488,1,com.alading.launcher/.MainActivity]
+05-23 11:30:20.282   592   821 I wm_task_removed: [2,removeTask]
+05-23 11:30:20.282   592   821 I wm_stack_removed: 1
+05-23 11:30:20.282   157   157 I sf_frame_dur: [com.android.settings/com.sprd.settings.SprdUsbSettings,0,2,0,0,0,1,5]
+05-23 11:30:20.292   592   821 I wm_task_removed: [2,removeAppToken: last token]
+05-23 11:30:21.363  1998  1998 I am_on_create_time: [0,.MainActivity onCreate() takes: 1076ms]
+05-23 11:30:21.363  1998  1998 I am_on_resume_called: [0,com.alading.launcher.MainActivity]
+05-23 11:30:21.363  1998  1998 I am_on_resume_time: [0,.MainActivity onResume() takes: 1ms]
+05-23 11:30:21.674   592   606 I am_activity_launch_time: [0,1112947488,com.alading.launcher/.MainActivity,1771,155076]
+05-23 11:30:26.769   839   839 I sqlite_mem_released: 0
+05-23 11:30:26.769   839   839 I force_gc: mem
+05-23 11:30:31.764   875   875 I force_gc: mem
+05-23 11:30:33.225   592  1394 I am_proc_died: [0,1896,com.sprd.ramoptimizer]
+05-23 11:30:33.245   592  1394 I am_destroy_service: [0,1114619192,-1]
+05-23 11:30:36.758   879   879 I sqlite_mem_released: 0
+05-23 11:30:36.758   879   879 I force_gc: mem
+05-23 11:30:41.773   885   885 I sqlite_mem_released: 0
+05-23 11:30:41.773   885   885 I force_gc: mem
+05-23 11:30:46.768   898   898 I sqlite_mem_released: 0
+05-23 11:30:46.768   898   898 I force_gc: mem
+05-23 11:30:51.773   785   785 I sqlite_mem_released: 38268
+05-23 11:30:51.783   785   785 I force_gc: mem
+05-23 11:30:56.798   770   770 I force_gc: mem
+05-23 11:31:09.691   823   823 I sqlite_mem_released: 259372
+05-23 11:31:09.691   823   823 I force_gc: mem
+05-23 11:31:14.695   978   978 I sqlite_mem_released: 263624
+05-23 11:31:14.695   978   978 I force_gc: mem
+05-23 11:31:19.690  1264  1264 I sqlite_mem_released: 0
+05-23 11:31:19.690  1264  1264 I force_gc: mem
+05-23 11:31:26.617   592   602 I am_create_service: [0,1112378768,.RegisterService,10050,1998]
+05-23 11:31:32.583   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:31:32.633   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:31:35.346   592  2052 I free_storage_changed: 37171200
+05-23 11:31:35.376   592   602 I am_proc_died: [0,1921,com.android.providers.calendar]
+05-23 11:31:37.227   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:31:37.247   592   668 I backup_data_changed: com.android.providers.settings
+05-23 11:32:20.259   592   806 I battery_status: [5,2,1,2,Li-ion]

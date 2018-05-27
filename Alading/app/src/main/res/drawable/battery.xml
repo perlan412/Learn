@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item>
+        <bitmap android:src="@drawable/battery_backgroud" />
+        
+  	</item>
+    <item android:id="@+id/id_clip_drawable"
+        android:left="3dp"
+        android:top="3dp"
+        android:right="10dp"
+        android:bottom="3dp">
+        <clip
+            android:clipOrientation="horizontal"
+            android:drawable="@drawable/battery_full"
+            />
+    </item>
+    
+    <item android:id="@+id/id_drawalbe_warming"
+        android:left="3dp"
+        android:top="3dp"
+        android:bottom="3dp">
+        <bitmap
+            android:gravity="left"
+            android:src="@drawable/battery_25"
+            />
+    </item>
+    
+    <item android:id="@+id/id_drawable_empty"
+        android:left="3dp"
+        android:top="3dp"
+        android:bottom="3dp">
+        <bitmap
+            android:gravity="center_horizontal"
+            android:src="@drawable/battery_empty"
+            />
+    </item>
+</layer-list>

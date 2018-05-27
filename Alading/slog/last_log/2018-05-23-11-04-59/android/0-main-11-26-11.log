@@ -1,0 +1,1560 @@
+05-23 11:26:11.168   154   345 E         : rotatelogs: slog rotatelogs [17]
+05-23 11:26:11.238   157   157 D gralloc.sc8830: fb_post fps = 2.016161
+05-23 11:26:11.468   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:11.468   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:11.758   179   214 D phoneserver: rsrp[0]=76,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:11.758   179   214 D phoneserver: +CESQ: 99,99,255,255,30,76
+05-23 11:26:11.758   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -76 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:11.758   926   926 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:11.768   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:11.768   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:11.768   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:11.768   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:11.768   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:11.768   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:11.768   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:11.768   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:11.768   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:11.768   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:11.768   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:11.768   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:11.768   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:11.778   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:11.778   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:11.778   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:11.778   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200dc(mDataActivity=3) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200dc
+05-23 11:26:11.778   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:11.778   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:11.778   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:11.778   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:11.778   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:11.778   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:11.778   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:11.778   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:11.798   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:11.798   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:11.828   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:11.919   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:11.919   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:11.989   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:11.989   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:12.229   592   616 I PackageManager: Checking for more work or unbind...
+05-23 11:26:12.239   592   616 I PackageManager: Posting delayed MCS_UNBIND
+05-23 11:26:12.239   157   157 D gralloc.sc8830: fb_post fps = 1.998475
+05-23 11:26:12.439   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:12.439   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:12.579   592  2942 D dalvikvm: GC_FOR_ALLOC freed 1390K, 27% free 7668K/10380K, paused 186ms, total 188ms
+05-23 11:26:12.629   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:12.629   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:12.759   179   214 D phoneserver: rsrp[0]=75,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:12.759   179   214 D phoneserver: +CESQ: 99,99,255,255,32,75
+05-23 11:26:12.759   926   926 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:12.769   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -75 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:12.769   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:12.769   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:12.769   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:12.769   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:12.769   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:12.769   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:12.779   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:12.779   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:12.779   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:12.779   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:12.779   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:12.779   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:12.779   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:12.779   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:12.779   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:12.779   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:12.779   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200dc(mDataActivity=3) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200dc
+05-23 11:26:12.779   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:12.779   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:12.779   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:12.779   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:12.779   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:12.779   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:12.779   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:12.779   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:12.929   673   673 D StatusBar.NetworkController: onDataActivity: direction=0 phoneId=0
+05-23 11:26:12.929   673   673 D StatusBar.NetworkController: mDataDirectionIconId end :7f0200c8  true
+05-23 11:26:12.929   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:12.929   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:12.929   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:12.929   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200dc
+05-23 11:26:12.939   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:12.939   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:12.939   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:12.939   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:12.939   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:12.939   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:12.939   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:12.939   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:12.950   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:12.950   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:12.950   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:12.950   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:12.950   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:12.950   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:12.950   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:12.950   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:12.960   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:12.960   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:12.960   673   673 D StatusBar.NetworkController: changing data overlay icon id to 2130837696
+05-23 11:26:13.070   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:13.070   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:13.250   157   157 D gralloc.sc8830: fb_post fps = 1.985578
+05-23 11:26:13.270   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:13.280   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:13.390   592  2942 D dalvikvm: GC_FOR_ALLOC freed 1237K, 25% free 7813K/10380K, paused 55ms, total 55ms
+05-23 11:26:13.560   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:13.560   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:13.650   592   607 E JavaBinder: !!! FAILED BINDER TRANSACTION !!!
+05-23 11:26:13.670   673   943 V KeyguardViewMediator: setHidden false
+05-23 11:26:13.680   673   943 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:13.680   673   943 V KeyguardViewMediator: setHidden false
+05-23 11:26:13.680   673   943 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:13.680   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:13.680   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:13.690   592   644 W InputDispatcher: channel '42286490 com.alading.launcher/com.alading.launcher.MainActivity (server)' ~ Consumer closed input channel or an error occurred.  events=0x9
+05-23 11:26:13.690   592   644 E InputDispatcher: channel '42286490 com.alading.launcher/com.alading.launcher.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+05-23 11:26:13.700   592   832 W InputDispatcher: Attempted to unregister already unregistered input channel '42286490 com.alading.launcher/com.alading.launcher.MainActivity (server)'
+05-23 11:26:13.710   673   944 V KeyguardViewMediator: setHidden false
+05-23 11:26:13.710   673   944 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:13.710   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:13.710   592   603 E Sensors : AccSensor: mDelay(20000000) delay_ns(66667000)
+05-23 11:26:13.710   592   603 E Sensors : AccSensor: ms(66) 
+05-23 11:26:13.750   592   616 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:13.760   592   616 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:13.760   592   616 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:13.760   179   214 D phoneserver: rsrp[0]=76,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:13.760   179   214 D phoneserver: +CESQ: 99,99,255,255,32,76
+05-23 11:26:13.760   592   616 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:13.760   592   616 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:13.760   592   616 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:13.760   592   616 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:13.760   592   616 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:13.760   592   616 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:13.760   592   616 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:13.760   592   616 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:13.770   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -76 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:13.780   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:13.780   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:13.780   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:13.780   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:13.780   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:13.780   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:13.780   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:13.780   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:13.780   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:13.780   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:13.780   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:13.780   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:13.780   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:13.780   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:13.790   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:13.790   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:13.790   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:13.790   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:13.790   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:13.790   592   616 V PackageManager: flag = 10110001011111101000110
+05-23 11:26:13.790   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:13.790   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:13.790   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:13.790   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:13.800   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:13.800   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:13.800   592   616 I PackageManager: Running dexopt on: com.alading.launcher
+05-23 11:26:13.830   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:13.910   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:13.910   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:13.940   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:13.940   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:14.211   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:14.211   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:14.551   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:14.551   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:14.711   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:14.711   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:14.761   179   214 D phoneserver: rsrp[0]=77,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:14.761   179   214 D phoneserver: +CESQ: 99,99,255,255,32,77
+05-23 11:26:14.771   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:14.771   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:14.771   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -77 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:14.771   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:14.771   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:14.771   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:14.771   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:14.771   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:14.771   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:14.771   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:14.771   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:14.771   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:14.771   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:14.781   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:14.781   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:14.781   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:14.781   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:14.781   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:14.781   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:14.781   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:14.781   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:14.781   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:14.781   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:14.781   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:14.781   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:14.781   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:14.781   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:14.781   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:14.841   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:14.841   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:14.941   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:14.941   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:15.192   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:15.192   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:15.482   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:15.482   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:15.762   179   214 D phoneserver: rsrp[0]=77,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:15.762   179   214 D phoneserver: +CESQ: 99,99,255,255,32,77
+05-23 11:26:15.762   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -77 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:15.762   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:15.772   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:15.772   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:15.772   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:15.772   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:15.772   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:15.772   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:15.772   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:15.772   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:15.772   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:15.772   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:15.772   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:15.772   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:15.772   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:15.772   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:15.782   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:15.782   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:15.782   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:15.782   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:15.782   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:15.782   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:15.782   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:15.782   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:15.782   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:15.782   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:15.812   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:15.812   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:15.832   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:15.952   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:15.952   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:16.123   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:16.123   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:16.443   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:16.443   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:16.723  2943  2943 D dalvikvm: DexOpt: load 415ms, verify+opt 1209ms, 2793892 bytes
+05-23 11:26:16.763   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:16.763   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:16.763   179   214 D phoneserver: rsrp[0]=77,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:16.763   179   214 D phoneserver: +CESQ: 99,99,255,255,32,77
+05-23 11:26:16.773   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -77 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:16.773   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:16.773   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:16.773   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:16.773   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:16.773   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:16.773   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:16.783   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:16.783   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:16.783   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:16.783   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:16.783   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:16.783   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:16.783   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:16.783   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:16.783   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:16.783   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:16.793   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:16.793   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:16.793   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:16.793   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:16.793   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:16.793   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:16.793   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:16.793   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:16.793   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:16.953   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:16.953   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:17.084   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:17.084   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:17.174   592   616 D dalvikvm: GC_FOR_ALLOC freed 1404K, 25% free 7828K/10380K, paused 47ms, total 47ms
+05-23 11:26:17.254   592   616 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:17.254   592   616 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:17.254   592   616 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:17.254   592   616 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:17.254   592   616 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:17.254   592   616 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:17.254   592   616 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:17.264   592   616 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:17.264   592   616 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:17.264   592   616 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:17.264   592   616 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:17.394   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:17.394   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:17.404   592   616 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:17.404   592   616 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:17.404   592   616 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:17.404   592   616 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:17.404   592   616 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:17.404   592   616 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:17.404   592   616 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:17.404   592   616 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:17.404   592   616 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:17.404   592   616 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:17.404   592   616 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:17.414   592   616 V PackageManager: + starting restore round-trip 1
+05-23 11:26:17.414   592   616 V PackageManager: No restore - queue post-install for 1
+05-23 11:26:17.414   592   616 V PackageManager: Handling post-install for 1
+05-23 11:26:17.434  2944  2944 D dalvikvm: Late-enabling CheckJNI
+05-23 11:26:17.474   673   944 V KeyguardViewMediator: setHidden false
+05-23 11:26:17.474   673   944 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:17.474   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:17.484   157   157 D gralloc.sc8830: fb_post fps = 0.709095
+05-23 11:26:17.484   673   683 V KeyguardViewMediator: setHidden false
+05-23 11:26:17.484   673   683 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:17.484   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:17.504  2954  2954 D dalvikvm: Late-enabling CheckJNI
+05-23 11:26:17.614   673   685 V KeyguardViewMediator: setHidden false
+05-23 11:26:17.614   673   685 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:17.614   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:17.614   673   943 V KeyguardViewMediator: setHidden false
+05-23 11:26:17.614   673   943 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:17.614   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:17.634   673   683 V KeyguardViewMediator: setHidden false
+05-23 11:26:17.634   673   683 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:17.644   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:17.724   158   158 D dalvikvm: GC_EXPLICIT freed 44K, 10% free 2149K/2368K, paused 1ms+2ms, total 22ms
+05-23 11:26:17.724   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:17.734   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:17.744   158   158 D dalvikvm: GC_EXPLICIT freed <1K, 10% free 2149K/2368K, paused 1ms+3ms, total 15ms
+05-23 11:26:17.764   158   158 D dalvikvm: GC_EXPLICIT freed <1K, 10% free 2149K/2368K, paused 1ms+1ms, total 16ms
+05-23 11:26:17.764   179   214 D phoneserver: rsrp[0]=78,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:17.764   179   214 D phoneserver: +CESQ: 99,99,255,255,31,78
+05-23 11:26:17.804   673   685 V KeyguardViewMediator: setHidden false
+05-23 11:26:17.804   673   685 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:17.804   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:17.834   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:17.844   673   943 V KeyguardViewMediator: setHidden false
+05-23 11:26:17.844   673   943 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:17.844   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:17.894   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:17.894   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:17.924   592   645 I InputReader: Reconfiguring input devices.  changes=0x00000010
+05-23 11:26:17.974   592   616 I PackageManager: installPackage
+05-23 11:26:17.984   673   964 V KeyguardViewMediator: setHidden false
+05-23 11:26:17.984   673   964 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:17.984   673   964 V KeyguardViewMediator: setHidden false
+05-23 11:26:17.984   673   964 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:17.994   592   645 I InputReader: Reconfiguring input devices.  changes=0x00000010
+05-23 11:26:17.994   592   645 I InputReader: Reconfiguring input devices.  changes=0x00000010
+05-23 11:26:18.004   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:18.004   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:18.044   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:18.044   592   608 D SettingsProvider: value = com.iflytek.inputmethod/.FlyIME
+05-23 11:26:18.044   592   608 D Settings: name = default_input_method, value = com.iflytek.inputmethod/.FlyIME
+05-23 11:26:18.044   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:18.054   698   698 D Settings: newValuesVersion = 2
+05-23 11:26:18.054   592   608 D Settings: name = disabled_system_input_methods, value = null
+05-23 11:26:18.054   592   857 D SettingsProvider: value = com.android.mms
+05-23 11:26:18.054   698   698 D Settings: name = sms_default_application, value = com.android.mms
+05-23 11:26:18.054  2954  2954 D LauncherApplication: onCreate
+05-23 11:26:18.105   592   603 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:18.105   592   603 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:18.105   592   603 I PackageManager:   Scheme: "sms"
+05-23 11:26:18.105   592   603 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:18.115   592   603 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:18.155   592   603 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:18.155   592   603 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:18.165   592   603 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:18.165   592   603 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:18.165   592   603 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:18.165   592   603 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:18.165   592   603 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:18.165   592   603 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:18.165   592   603 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:18.255   592   922 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:18.255   592   922 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:18.255   592   922 I PackageManager:   Scheme: "smsto"
+05-23 11:26:18.255   592   922 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:18.255   592   922 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:18.275  2954  2954 D ViewConfiguration: init scroll_friction: 0.017
+05-23 11:26:18.285   592   922 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:18.295   592   922 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:18.295   592   922 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:18.295   592   922 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:18.295   592   922 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:18.295   592   922 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:18.295   592   922 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:18.295   592   922 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:18.295   592   922 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:18.325   592   603 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:18.325   592   603 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:18.325   592   603 I PackageManager:   Scheme: "mms"
+05-23 11:26:18.325   592   603 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:18.325   592   603 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:18.325   592   603 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:18.325   592   603 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:18.325   592   603 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:18.325   592   603 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:18.325   592   603 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:18.325   592   603 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:18.325   592   603 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:18.335   592   603 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:18.335   592   603 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:18.365   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:18.365   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:18.365   592   603 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:18.365   592   603 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:18.365   592   603 I PackageManager:   Scheme: "mmsto"
+05-23 11:26:18.365   592   603 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:18.365   592   603 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:18.385   592   603 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:18.385   592   603 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:18.385   592   603 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:18.385   592   603 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:18.385   592   603 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:18.395   592   603 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:18.395   592   603 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:18.395   592   603 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:18.395   592   603 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:18.415   592   922 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:18.415   592   922 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:18.415   592   922 I PackageManager:   Scheme: "sms"
+05-23 11:26:18.415   592   922 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:18.415   592   922 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:18.425   592   922 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:18.425   592   922 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:18.425   592   922 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:18.425   592   922 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:18.425   592   922 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:18.425   592   922 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:18.425   592   922 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:18.425   592   922 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:18.425   592   922 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:18.455  2954  2954 W asset   : Asset path /system/etc/theme/default/res.sprd.icons is neither a directory nor file (type=1).
+05-23 11:26:18.535   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:18.535   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:18.535   698   698 D dalvikvm: GC_FOR_ALLOC freed 367K, 16% free 3825K/4540K, paused 92ms, total 92ms
+05-23 11:26:18.535   592   602 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:18.535   592   602 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:18.535   592   602 I PackageManager:   Scheme: "smsto"
+05-23 11:26:18.535   592   602 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:18.545   592   602 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:18.545   592   602 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:18.545   592   602 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:18.545   592   602 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:18.545   592   602 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:18.545   592   602 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:18.545   592   602 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:18.545   592   602 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:18.545   592   602 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:18.545   592   602 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:18.585   592   921 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:18.585   592   921 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:18.585   592   921 I PackageManager:   Scheme: "mms"
+05-23 11:26:18.585   592   921 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:18.585   592   921 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:18.595   592   921 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:18.595   592   921 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:18.595   592   921 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:18.595   592   921 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:18.595   592   921 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:18.595   592   921 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:18.595   592   921 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:18.605   592   921 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:18.605   592   921 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:18.665   592  2980 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:18.665   592  2980 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:18.665   592  2980 I PackageManager:   Scheme: "mmsto"
+05-23 11:26:18.665   592  2980 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:18.665   592  2980 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:18.715  2954  2954 D dalvikvm: GC_FOR_ALLOC freed 83K, 10% free 2455K/2716K, paused 12ms, total 12ms
+05-23 11:26:18.755   592  2980 D dalvikvm: GC_FOR_ALLOC freed 1577K, 27% free 7670K/10380K, paused 81ms, total 85ms
+05-23 11:26:18.755   592  2980 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:18.755   592  2980 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:18.755   592  2980 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:18.755   592  2980 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:18.755   592  2980 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:18.755   592  2980 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:18.765   592  2980 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:18.765   592  2980 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:18.765   592  2980 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:18.765   179   214 D phoneserver: rsrp[0]=78,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:18.765   179   214 D phoneserver: +CESQ: 99,99,255,255,32,78
+05-23 11:26:18.805   698   698 D dalvikvm: GC_FOR_ALLOC freed 245K, 17% free 3828K/4560K, paused 18ms, total 18ms
+05-23 11:26:18.805   592   616 D Settings: newValuesVersion = 35
+05-23 11:26:18.815   592   616 D SettingsProvider: value = 0
+05-23 11:26:18.815   592   616 D Settings: name = install_non_market_apps, value = 0
+05-23 11:26:18.835  2954  2954 D dalvikvm: GC_FOR_ALLOC freed 5K, 9% free 2689K/2944K, paused 11ms, total 11ms
+05-23 11:26:18.875  2954  2954 D dalvikvm: GC_FOR_ALLOC freed 1K, 9% free 2913K/3172K, paused 7ms, total 7ms
+05-23 11:26:18.925  2954  2954 D dalvikvm: GC_FOR_ALLOC freed 2K, 8% free 3146K/3400K, paused 8ms, total 8ms
+05-23 11:26:18.955  2954  2954 D dalvikvm: GC_FOR_ALLOC freed 1K, 8% free 3370K/3628K, paused 8ms, total 8ms
+05-23 11:26:18.985   592   603 D Settings: newValuesVersion = 35
+05-23 11:26:18.985   592   603 D Settings: mValues.get(name) = null
+05-23 11:26:18.995   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:18.995   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:19.005  2954  2954 D dalvikvm: GC_FOR_ALLOC freed 2K, 7% free 3604K/3856K, paused 9ms, total 9ms
+05-23 11:26:19.045  2954  2954 D dalvikvm: GC_FOR_ALLOC freed 2K, 7% free 3827K/4084K, paused 8ms, total 8ms
+05-23 11:26:19.106  2954  2954 D dalvikvm: GC_FOR_ALLOC freed 2K, 6% free 4285K/4540K, paused 8ms, total 8ms
+05-23 11:26:19.156  2954  2954 D dalvikvm: GC_FOR_ALLOC freed 3K, 6% free 4743K/4996K, paused 8ms, total 8ms
+05-23 11:26:19.176   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:19.176   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:19.226   592   923 D Settings: newValuesVersion = 35
+05-23 11:26:19.226   592   923 D Settings: mValues.get(name) = null
+05-23 11:26:19.226   592   832 D Settings: newValuesVersion = 35
+05-23 11:26:19.226   592   832 D Settings: mValues.get(name) = null
+05-23 11:26:19.226   592   857 D Settings: newValuesVersion = 35
+05-23 11:26:19.226   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:19.236   592   757 D Settings: newValuesVersion = 35
+05-23 11:26:19.236   592   757 D Settings: mValues.get(name) = null
+05-23 11:26:19.236   592   922 D Settings: newValuesVersion = 35
+05-23 11:26:19.236   592   922 D Settings: mValues.get(name) = null
+05-23 11:26:19.236   592  2981 D Settings: newValuesVersion = 35
+05-23 11:26:19.236   592  2981 D Settings: mValues.get(name) = null
+05-23 11:26:19.256   592   602 D Settings: newValuesVersion = 35
+05-23 11:26:19.256   592   602 D Settings: mValues.get(name) = null
+05-23 11:26:19.256   592   667 D Settings: newValuesVersion = 35
+05-23 11:26:19.256   592   667 D Settings: mValues.get(name) = null
+05-23 11:26:19.256   592   921 D Settings: newValuesVersion = 35
+05-23 11:26:19.256   592   921 D Settings: mValues.get(name) = null
+05-23 11:26:19.276   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -78 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:19.286   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:19.286   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:19.286   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:19.286   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:19.326   698   698 D Settings: newValuesVersion = 2
+05-23 11:26:19.326   698   698 D Settings: mValues.get(name) = com.android.mms
+05-23 11:26:19.326   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:19.326   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:19.326   592  2981 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:19.326   592  2981 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:19.326   592  2981 I PackageManager:   Scheme: "sms"
+05-23 11:26:19.326   592  2981 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:19.326   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:19.326   592  2981 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:19.326   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:19.336   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:19.336   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:19.336   592  2981 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:19.336   592  2981 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:19.336   592  2981 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:19.336   592  2981 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:19.336   592  2981 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:19.336   592  2981 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:19.336   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:19.336   592  2981 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:19.336   592  2981 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:19.336   592  2981 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:19.346   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:19.346   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:19.346   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:19.346   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:19.346   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:19.346   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:19.346   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:19.356   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:19.356   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:19.356   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:19.356   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:19.356   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:19.356   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:19.356   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:19.376   592   667 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:19.376   592   667 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:19.376   592   667 I PackageManager:   Scheme: "smsto"
+05-23 11:26:19.376   592   667 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:19.376   592   667 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:19.376   592   667 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:19.376   592   667 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:19.376   592   667 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:19.376   592   667 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:19.376   592   667 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:19.376   592   667 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:19.376   592   667 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:19.376   592   667 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:19.376   592   667 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:19.396   592   924 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:19.396   592   924 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:19.396   592   924 I PackageManager:   Scheme: "mms"
+05-23 11:26:19.396   592   924 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:19.396   592   924 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:19.406   592   924 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:19.406   592   924 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:19.406   592   924 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:19.406   592   924 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:19.406   592   924 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:19.406   592   924 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:19.406   592   924 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:19.406   592   924 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:19.406   592   924 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:19.436   592   603 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:19.436   592   603 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:19.436   592   603 I PackageManager:   Scheme: "mmsto"
+05-23 11:26:19.436   592   603 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:19.446   592   603 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:19.446   592   603 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:19.446   592   603 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:19.446   592   603 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:19.446   592   603 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:19.446   592   603 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:19.446   592   603 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:19.446   592   603 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:19.446   592   603 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:19.446   592   603 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:19.466   592   616 D dalvikvm: GC_EXPLICIT freed 605K, 25% free 7834K/10380K, paused 51ms+18ms, total 657ms
+05-23 11:26:19.496   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:19.496   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:19.516   698   698 D dalvikvm: GC_FOR_ALLOC freed 299K, 17% free 3819K/4568K, paused 40ms, total 40ms
+05-23 11:26:19.766   179   214 D phoneserver: rsrp[0]=78,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:19.766   179   214 D phoneserver: +CESQ: 99,99,255,255,32,78
+05-23 11:26:19.806   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:19.806   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:19.836   592   757 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:19.836   592   757 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:19.836   592   757 I PackageManager:   Scheme: "sms"
+05-23 11:26:19.836   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:19.836   592   757 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:19.836   592   757 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:19.976   592   757 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:19.976  2954  2954 I ReadSqlUtils: Missed Call count = 0
+05-23 11:26:19.986  2954  2954 I ReadSqlUtils: get miss call need 0
+05-23 11:26:19.986   592   757 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:19.986   592   757 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:19.986   592   757 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:19.986   592   757 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:19.986   592   757 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:19.986   592   757 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:19.996   592   757 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:19.996   592   757 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.016   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:20.026   592  2980 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.026   592  2980 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.026   592  2980 I PackageManager:   Scheme: "smsto"
+05-23 11:26:20.026   592  2980 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.026   592  2980 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.026   592  2980 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.026   592  2980 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.026   592  2980 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.036   592  2980 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.036   592  2980 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.036   592  2980 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.036   592  2980 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.036   592  2980 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.036   592  2980 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.036   592   608 D Settings: mValues.get(name) = com.iflytek.inputmethod/.FlyIME
+05-23 11:26:20.046   592   922 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.056   592   922 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.056   592   922 I PackageManager:   Scheme: "mms"
+05-23 11:26:20.056   592   922 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.056   592   922 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.066   592   922 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.066   592   922 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.066   592   922 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.066   592   922 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.066   592   922 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.066   592   922 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.066   592   922 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.066   592   922 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.066   592   922 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.086   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:20.086   592   608 D SettingsProvider: value = com.iflytek.inputmethod/.FlyIME
+05-23 11:26:20.086   592   608 D Settings: name = enabled_input_methods, value = com.iflytek.inputmethod/.FlyIME
+05-23 11:26:20.086   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:20.086   592   608 D Settings: mValues.get(name) = null
+05-23 11:26:20.127   673   673 D PhoneStatusBar: hiding the MENU button
+05-23 11:26:20.137   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:20.137   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:20.137   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:20.137   592   608 D Settings: mValues.get(name) = null
+05-23 11:26:20.137   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:20.137   592   608 D Settings: mValues.get(name) = null
+05-23 11:26:20.137   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:20.157   698   698 D dalvikvm: GC_FOR_ALLOC freed 262K, 17% free 3826K/4568K, paused 24ms, total 24ms
+05-23 11:26:20.167   592   608 D Settings: mValues.get(name) = 0
+05-23 11:26:20.167   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:20.167   592   608 D Settings: mValues.get(name) = 0
+05-23 11:26:20.167   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:20.167   592   608 D Settings: mValues.get(name) = 0
+05-23 11:26:20.167   592  2983 D Settings: newValuesVersion = 35
+05-23 11:26:20.167   698  1170 I SmsProvider: query: url=content://sms  projectionIn=[_id]  selection=[type =1 AND read = 0]  args=null  order=[null]
+05-23 11:26:20.177   592  2983 D Settings: mValues.get(name) = null
+05-23 11:26:20.177   592  2983 D Settings: newValuesVersion = 35
+05-23 11:26:20.177   592  2983 D Settings: mValues.get(name) = null
+05-23 11:26:20.187   592   757 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.187   592  2983 D Settings: newValuesVersion = 35
+05-23 11:26:20.187   592  2983 D Settings: mValues.get(name) = null
+05-23 11:26:20.187   592  2983 D Settings: newValuesVersion = 35
+05-23 11:26:20.187   592  2983 D Settings: mValues.get(name) = null
+05-23 11:26:20.187   592  2983 D Settings: newValuesVersion = 35
+05-23 11:26:20.187   592  2983 D Settings: mValues.get(name) = null
+05-23 11:26:20.187   592   757 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.187   592   757 I PackageManager:   Scheme: "mmsto"
+05-23 11:26:20.187   592   757 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.187   592   757 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.207   592   757 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.207   592   757 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.207   592   757 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.207   592   757 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.207   592   757 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.207   592   757 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.207   592   757 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.207   592   757 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.207   592   757 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.217   592  2983 D Settings: newValuesVersion = 35
+05-23 11:26:20.217   592  2983 D Settings: mValues.get(name) = null
+05-23 11:26:20.217   592  2983 D Settings: newValuesVersion = 35
+05-23 11:26:20.217   592  2983 D Settings: mValues.get(name) = null
+05-23 11:26:20.217   592  2983 D Settings: newValuesVersion = 35
+05-23 11:26:20.217   592  2983 D Settings: mValues.get(name) = null
+05-23 11:26:20.247  2914  2914 D AndroidRuntime: Shutting down VM
+05-23 11:26:20.257   698   698 D Settings: newValuesVersion = 2
+05-23 11:26:20.257   698   698 D Settings: mValues.get(name) = com.android.mms
+05-23 11:26:20.257  2914  2920 D jdwp    : Got wake-up signal, bailing out of select
+05-23 11:26:20.257  2914  2920 D dalvikvm: Debugger has detached; object registry had 1 entries
+05-23 11:26:20.267  2954  2954 I ReadSqlUtils: SMS count = 3
+05-23 11:26:20.267   592   757 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.267   592   757 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.267   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:20.267   592   608 D Settings: name = selected_spell_checker, value = null
+05-23 11:26:20.277   592   757 I PackageManager:   Scheme: "sms"
+05-23 11:26:20.277   592   757 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.277   592   757 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.297   592   757 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.297   592   757 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.297   592   757 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.297   592   757 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.297   592   757 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.297   592   757 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.297   592   757 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.297   592   757 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.307   592   757 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.317   592   923 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.317   592   923 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.317   592   923 I PackageManager:   Scheme: "smsto"
+05-23 11:26:20.317   592   923 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.317   592   923 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.327   592   923 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.327   592   923 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.327   592   923 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.327   592   923 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.327   592   923 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.327   592   923 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.327   592   923 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.327   592   923 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.327   592   923 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.337   592   924 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.337   592   924 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.337   592   924 I PackageManager:   Scheme: "mms"
+05-23 11:26:20.337   592   924 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.347   592   924 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.347   592   924 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.347   592   924 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.347   592   924 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.347   592   924 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.347   592   924 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.347   592   924 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.347   592   924 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.347   592   924 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.347   592   924 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.377   698   698 D dalvikvm: GC_FOR_ALLOC freed 287K, 17% free 3827K/4568K, paused 24ms, total 24ms
+05-23 11:26:20.387   592   757 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.387   592   757 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.387   592   757 I PackageManager:   Scheme: "mmsto"
+05-23 11:26:20.387   592   757 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.387   592   757 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.387  2954  2954 I ReadSqlUtils: MMS count = 0
+05-23 11:26:20.397  2954  2954 I ReadSqlUtils: get unread message need 0
+05-23 11:26:20.397   592   757 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.397   592   757 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.397   592   757 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.397   592   757 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.397   592   757 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.397   592   757 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.397   592   757 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.397   592   757 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.407   592   757 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.417  2954  2954 D Settings: newValuesVersion = 7
+05-23 11:26:20.417   592   922 D SettingsProvider: value = 24
+05-23 11:26:20.417  2954  2954 D Settings: name = time_12_24, value = 24
+05-23 11:26:20.427   592   923 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.427   592   923 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.427   592   923 I PackageManager:   Scheme: "sms"
+05-23 11:26:20.427   592   923 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.437   592   923 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.437   592   923 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.437   592   923 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.437   592   923 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.437   592   923 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.437   592   923 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.437   592   923 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.437   592   923 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.437   592   923 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.437   592   923 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.447   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:20.447   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:20.467   592   832 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.467   592   832 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.467   592   832 I PackageManager:   Scheme: "smsto"
+05-23 11:26:20.467   592   832 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.467   592   832 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.477   592   832 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.477   592   832 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.477   592   832 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.477   592   832 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.487   592   832 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.487  2954  2954 D dalvikvm: GC_FOR_ALLOC freed 29K, 4% free 5580K/5784K, paused 19ms, total 24ms
+05-23 11:26:20.487   592   832 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.487   592   832 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.487   592   832 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.487   592   832 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.537   698   698 D dalvikvm: GC_FOR_ALLOC freed 262K, 17% free 3827K/4568K, paused 25ms, total 25ms
+05-23 11:26:20.607   592   925 D dalvikvm: GC_FOR_ALLOC freed 1565K, 26% free 7695K/10380K, paused 63ms, total 64ms
+05-23 11:26:20.607   592   925 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.607   592   925 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.607   592   925 I PackageManager:   Scheme: "mms"
+05-23 11:26:20.607   592   925 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.617   592   925 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.627   592   925 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.627   592   925 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.627   592   925 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.627   592   925 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.627   592   925 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.627   592   925 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.637   592   925 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.637   592   925 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.637   592   925 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.657   592   757 I PackageManager:   Action: "android.intent.action.SENDTO"
+05-23 11:26:20.657   592   757 I PackageManager:   Category: "android.intent.category.DEFAULT"
+05-23 11:26:20.657   592   757 I PackageManager:   Scheme: "mmsto"
+05-23 11:26:20.657   592   757 I PackageSettings: Writing package restrictions for user=0
+05-23 11:26:20.657   592   757 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:20.667   592   757 I PackageSettings:   pkg=com.android.settings.tests, state=0
+05-23 11:26:20.667   592   757 I PackageSettings:   pkg=com.android.stk, state=0
+05-23 11:26:20.667   592   757 I PackageSettings:   pkg=com.android.camera2, state=0
+05-23 11:26:20.667   592   757 I PackageSettings:   pkg=com.android.provision, state=0
+05-23 11:26:20.677   592   757 I PackageSettings:   pkg=com.android.settings, state=0
+05-23 11:26:20.677   592   757 I PackageSettings:   pkg=com.android.deskclock.tests, state=0
+05-23 11:26:20.677   592   757 I PackageSettings:   pkg=com.android.gallery3d, state=0
+05-23 11:26:20.677   592   757 I PackageSettings:   pkg=com.adups.fota, state=1
+05-23 11:26:20.677   592   757 I PackageSettings:   pkg=com.android.musicfx, state=0
+05-23 11:26:20.727  2954  2954 D Settings: newValuesVersion = 7
+05-23 11:26:20.727  2954  2954 D Settings: mValues.get(name) = 24
+05-23 11:26:20.747   592   924 D Settings: newValuesVersion = 35
+05-23 11:26:20.747   592   924 D Settings: mValues.get(name) = null
+05-23 11:26:20.757   592   921 D Settings: newValuesVersion = 35
+05-23 11:26:20.757   592   921 D Settings: mValues.get(name) = null
+05-23 11:26:20.757   592   602 D Settings: newValuesVersion = 35
+05-23 11:26:20.757   592   602 D Settings: mValues.get(name) = null
+05-23 11:26:20.757   592  2981 D Settings: newValuesVersion = 35
+05-23 11:26:20.757   592  2981 D Settings: mValues.get(name) = null
+05-23 11:26:20.767   592   923 D Settings: newValuesVersion = 35
+05-23 11:26:20.767   592   923 D Settings: mValues.get(name) = null
+05-23 11:26:20.767   592   667 D Settings: newValuesVersion = 35
+05-23 11:26:20.767   592   667 D Settings: mValues.get(name) = null
+05-23 11:26:20.767   179   214 D phoneserver: rsrp[0]=79,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:20.767   179   214 D phoneserver: +CESQ: 99,99,255,255,32,79
+05-23 11:26:20.767   592   832 D Settings: newValuesVersion = 35
+05-23 11:26:20.767   592   832 D Settings: mValues.get(name) = null
+05-23 11:26:20.777   592   603 D Settings: newValuesVersion = 35
+05-23 11:26:20.777   592   603 D Settings: mValues.get(name) = null
+05-23 11:26:20.777   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:20.777   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:20.777   592   925 D Settings: newValuesVersion = 35
+05-23 11:26:20.777   592   925 D Settings: mValues.get(name) = null
+05-23 11:26:20.787   592   857 D Settings: newValuesVersion = 35
+05-23 11:26:20.787   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:20.797   592  3001 D Settings: newValuesVersion = 35
+05-23 11:26:20.797   592  3001 D Settings: mValues.get(name) = null
+05-23 11:26:20.797   592  3001 D Settings: newValuesVersion = 35
+05-23 11:26:20.797   592  3001 D Settings: mValues.get(name) = null
+05-23 11:26:20.797   592  3001 D Settings: newValuesVersion = 35
+05-23 11:26:20.797   592  3001 D Settings: mValues.get(name) = null
+05-23 11:26:20.837  2954  2954 D Settings: newValuesVersion = 7
+05-23 11:26:20.837  2954  2954 D Settings: mValues.get(name) = 24
+05-23 11:26:20.837  2954  2954 D Settings: newValuesVersion = 7
+05-23 11:26:20.877  2954  2954 D Settings: name = date_format, value = null
+05-23 11:26:20.877   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:20.877   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:20.887   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -78 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:20.887   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:20.887   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:20.897   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:20.897   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:20.897   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:20.897   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:20.897   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:20.897   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:20.897   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:20.897   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:20.897   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:20.897   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:20.897   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:20.897   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:20.907   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:20.907   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:20.907   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:20.907   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:20.907   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:20.907   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:20.907   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:20.907   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:20.907   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:20.907   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:20.907   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:20.917   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -78 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:20.917   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:20.917   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:20.917   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:20.917   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:20.917   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:20.917   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:20.917   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:20.917   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:20.917   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:20.917   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:20.917   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:20.917   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:20.917   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:20.917   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:20.917   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:20.917   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:20.917   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:20.927   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:20.927   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:20.927   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:20.927   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:20.927   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:20.927   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:20.927   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:20.927   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:20.927   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -79 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:20.927   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:20.927   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:20.927   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:20.927   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:20.927   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:20.937   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:20.937   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:20.937   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:20.937   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:20.937   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:20.937   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:20.937   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:20.937   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:20.937   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:20.937   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:20.937   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:20.937   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:20.937   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:20.937   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:20.937   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:20.937   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:20.937   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:20.937   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:20.937   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:20.937   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:21.077   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:21.077   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:21.107  2954  2954 D NetworkUtils: sim_name = 中国移动
+05-23 11:26:21.228   592   832 E Sensors : AccSensor: mDelay(66667000) delay_ns(20000000)
+05-23 11:26:21.228   592   832 E Sensors : AccSensor: ms(20) 
+05-23 11:26:21.308  2954  2954 I MainDialog: getRssi:-200
+05-23 11:26:21.328  2954  2954 D NetworkUtils: sim_name = 中国移动
+05-23 11:26:21.328  2954  2954 D MainDialog:  oldLevel = 0 level = 4 isSimAvail = true
+05-23 11:26:21.338  2954  2954 D NetworkUtils: sim_name = 中国移动
+05-23 11:26:21.338  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:21.338  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = false
+05-23 11:26:21.338  2954  2954 D NetworkUtils: sim_name = 中国移动
+05-23 11:26:21.338  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:21.348  2954  2954 D NetworkUtils: sim_name = 中国移动
+05-23 11:26:21.348  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:21.348  2954  2954 D NetworkUtils: sim_name = 中国移动
+05-23 11:26:21.348  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:21.408   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:21.408   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:21.718   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:21.718   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:21.758   179   214 D phoneserver: rsrp[0]=80,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:21.758   179   214 D phoneserver: +CESQ: 99,99,255,255,32,80
+05-23 11:26:21.768   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -80 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:21.768   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:21.768   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:21.768   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:21.768   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:21.768   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:21.768   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:21.768   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:21.768   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:21.768   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:21.768   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:21.768   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:21.768   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:21.778   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:21.778   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:21.778   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:21.778   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:21.778   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:21.778   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:21.778   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:21.778   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:21.778   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:21.778   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:21.778   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:21.778   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:21.778   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:21.828   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:21.878   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:21.878   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:21.938   673   944 V KeyguardViewMediator: setHidden false
+05-23 11:26:21.938   673   944 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:21.938   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:21.938   157   157 D gralloc.sc8830: fb_post fps = 1.567450
+05-23 11:26:21.968   673   683 V KeyguardViewMediator: setHidden false
+05-23 11:26:21.968   673   683 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:21.968   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:22.038   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:22.038   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:22.118  2954  2954 D OpenGLRenderer: Enabling debug mode 0
+05-23 11:26:22.138  2954  2954 D HCircularViewPager: onLayout
+05-23 11:26:22.138  2954  2954 D HCircularViewPager: onLayout
+05-23 11:26:22.319  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:22.319   673   964 V KeyguardViewMediator: setHidden false
+05-23 11:26:22.319   673   964 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:22.319   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:22.339   592   606 I ActivityManager: Displayed com.alading.launcher/.MainActivity: +4s850ms (total +20m51s974ms)
+05-23 11:26:22.349   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:22.349   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:22.359   673   685 V KeyguardViewMediator: setHidden false
+05-23 11:26:22.359   673   685 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:22.359   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:22.419   673   943 V KeyguardViewMediator: setHidden false
+05-23 11:26:22.419   673   943 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:22.419   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:22.429   673   683 D KeyguardViewMediator: mShowing: falsemNeedToReshowWhenReenabled: falsemUpdateMonitor.isDeviceProvisioned(): true
+05-23 11:26:22.459   673   964 V KeyguardViewMediator: setHidden false
+05-23 11:26:22.459   673   964 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:22.459   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:22.509   673   685 V KeyguardViewMediator: setHidden false
+05-23 11:26:22.509   673   685 V KeyguardUpdateMonitor: sendKeyguardVisibilityChanged(true)
+05-23 11:26:22.509   673   673 V KeyguardUpdateMonitor: handleKeyguardVisibilityChanged(1)
+05-23 11:26:22.599  2954  2954 D HCircularViewPager: onLayout
+05-23 11:26:22.609  2954  2954 D HCircularViewPager: onLayout
+05-23 11:26:22.639   784   795 W Binder  : Caught a RuntimeException from the binder stub implementation.
+05-23 11:26:22.639   784   795 W Binder  : java.lang.NullPointerException
+05-23 11:26:22.639   784   795 W Binder  : 	at android.inputmethodservice.IInputMethodWrapper.setSessionEnabled(IInputMethodWrapper.java:286)
+05-23 11:26:22.639   784   795 W Binder  : 	at com.android.internal.view.IInputMethod$Stub.onTransact(IInputMethod.java:129)
+05-23 11:26:22.639   784   795 W Binder  : 	at android.os.Binder.execTransact(Binder.java:427)
+05-23 11:26:22.639   784   795 W Binder  : 	at dalvik.system.NativeStart.run(Native Method)
+05-23 11:26:22.679   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:22.679   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:22.759   179   214 D phoneserver: rsrp[0]=80,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:22.759   179   214 D phoneserver: +CESQ: 99,99,255,255,32,80
+05-23 11:26:22.799   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -80 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:22.799  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:22.809   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:22.809   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:22.809   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:22.809   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:22.809   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:22.809   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:22.809   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:22.809   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:22.809   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:22.809   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:22.819   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:22.819   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:22.819   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:22.819   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:22.819   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:22.819   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:22.819   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:22.819   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:22.829   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:22.829   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:22.829   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:22.829   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:22.829   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:22.829   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:22.829   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:22.939   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:22.949   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:22.989   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:22.989   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:23.280  3012  3012 D dalvikvm: WAIT_FOR_CONCURRENT_GC blocked 1ms
+05-23 11:26:23.320   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:23.320   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:23.420   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:23.420   592   608 D Settings: mValues.get(name) = null
+05-23 11:26:23.420   592   608 W Searchables: No global search activity found
+05-23 11:26:23.560  3012  3012 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:23.560  3012  3012 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:23.560  3012  3012 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:23.560  3012  3012 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:23.600   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:23.600   592   608 D Settings: mValues.get(name) = null
+05-23 11:26:23.600   592   608 W Searchables: No global search activity found
+05-23 11:26:23.630   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:23.630   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:23.650   592   608 D Settings: newValuesVersion = 2
+05-23 11:26:23.690   592   608 D Settings: name = voice_recognition_service, value = null
+05-23 11:26:23.760   179   214 D phoneserver: rsrp[0]=81,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:23.760   179   214 D phoneserver: +CESQ: 99,99,255,255,32,81
+05-23 11:26:23.770   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -81 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:23.770  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:23.770   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:23.780   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:23.780   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:23.780   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:23.780   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:23.780   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:23.780   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:23.780   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:23.780   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:23.780   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:23.780   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:23.780   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:23.780   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:23.790   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:23.790   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:23.790   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:23.790   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:23.790   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:23.790   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:23.790   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:23.790   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:23.790   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:23.790   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:23.790   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:23.790   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:23.830   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:23.960   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:23.960   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:23.970   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:23.970   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:24.080  3012  3012 D FotaUpdate: AInReceiver:->update self finish packageName=com.alading.launcher isAppReplacing=true
+05-23 11:26:24.120  3006  3006 D AndroidRuntime: CheckJNI is OFF
+05-23 11:26:24.271   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:24.271   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:24.601   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:24.601   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:24.701  3006  3006 D dalvikvm: Trying to load lib libjavacore.so 0x0
+05-23 11:26:24.711   592   923 W PackageManager: com.android.musicfx == 1 == 1 0
+05-23 11:26:24.721   592   832 W PackageManager: com.android.musicfx == 1 == 1 0
+05-23 11:26:24.721  3006  3006 D dalvikvm: Added shared lib libjavacore.so 0x0
+05-23 11:26:24.761  2549  2549 I pluginreceiver: context = android.app.ReceiverRestrictedContext@41e23d40,intent.getAction() = android.intent.action.PACKAGE_REMOVED
+05-23 11:26:24.761   179   214 D phoneserver: rsrp[0]=82,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:24.761   179   214 D phoneserver: +CESQ: 99,99,255,255,32,82
+05-23 11:26:24.771  3006  3006 D dalvikvm: Trying to load lib libnativehelper.so 0x0
+05-23 11:26:24.771  3006  3006 D dalvikvm: Added shared lib libnativehelper.so 0x0
+05-23 11:26:24.771  3006  3006 D dalvikvm: No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-23 11:26:24.771  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:24.771   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -82 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:24.771   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:24.781   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:24.781   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:24.781   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:24.781   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:24.781   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:24.781   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:24.781   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:24.791   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:24.791   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:24.791   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:24.791   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:24.791   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:24.791   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:24.791   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:24.791   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:24.791   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:24.791   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:24.791   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:24.791   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:24.791   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:24.791   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:24.791   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:24.801   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:24.801   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:24.921   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:24.921   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:24.961   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:24.961   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:24.991  2854  2854 I System.out: appid= 59a92a75 and    packagename= com.iflytek.pushclient.a.b.a@73614f9b
+05-23 11:26:25.071  3049  3055 D dalvikvm: Debugger has detached; object registry had 1 entries
+05-23 11:26:25.101   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:25.101   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:25.111  3006  3006 D dalvikvm: Note: class Landroid/app/ActivityManagerNative; has 192 unimplemented (abstract) methods
+05-23 11:26:25.151   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:25.151   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:25.181   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:25.181   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:25.181   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:25.181   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:25.442   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:25.442   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:25.452  3049  3049 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:25.452  3049  3049 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:25.452  3049  3049 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:25.452  3049  3049 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:25.602  3006  3006 E memtrack: Couldn't load memtrack module (No such file or directory)
+05-23 11:26:25.602  3006  3006 E android.os.Debug: failed to load memtrack module: -2
+05-23 11:26:25.762   179   214 D phoneserver: rsrp[0]=80,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:25.762   179   214 D phoneserver: +CESQ: 99,99,255,255,24,80
+05-23 11:26:25.772   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -80 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:25.772  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:25.772   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:25.782   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:25.782   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:25.782   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:25.782   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:25.782   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:25.782   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:25.782   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:25.782   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:25.782   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:25.782   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:25.782   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:25.782   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:25.782   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:25.782   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:25.782   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:25.782   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:25.782   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:25.782   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:25.782   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:25.782   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:25.782   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:25.782   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:25.782   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:25.782   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:25.832   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:26.002   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:26.002   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansGurmukhi-Bold.ttf, skipping the second occurrence
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansGurmukhi-Regular.ttf, skipping the second occurrence
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansGurmukhiUI-Bold.ttf, skipping the second occurrence
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansOriya-Bold.ttf, skipping the second occurrence
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansOriya-Regular.ttf, skipping the second occurrence
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansOriyaUI-Regular.ttf, skipping the second occurrence
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansOriyaUI-Bold.ttf, skipping the second occurrence
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansGujarati-Bold.ttf, skipping the second occurrence
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansGujarati-Regular.ttf, skipping the second occurrence
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansGujaratiUI-Bold.ttf, skipping the second occurrence
+05-23 11:26:26.433  3006  3006 D skia    : ---- system font and fallback font files specify a duplicate font /system/fonts/NotoSansGujaratiUI-Regular.ttf, skipping the second occurrence
+05-23 11:26:26.473  3006  3006 E KTFmImpl: KTFmImpl search is 100k
+05-23 11:26:26.473  3006  3006 D dalvikvm: No JNI_OnLoad found in /system/lib/libandroid_runtime.so 0x0, skipping init
+05-23 11:26:26.593  3006  3006 D AndroidRuntime: Calling main entry com.android.commands.am.Am
+05-23 11:26:26.673  3006  3006 D AndroidRuntime: Shutting down VM
+05-23 11:26:26.673  3006  3047 D jdwp    : Got wake-up signal, bailing out of select
+05-23 11:26:26.673  3006  3047 D dalvikvm: Debugger has detached; object registry had 1 entries
+05-23 11:26:26.763   179   214 D phoneserver: rsrp[0]=80,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:26.763   179   214 D phoneserver: +CESQ: 99,99,255,255,24,80
+05-23 11:26:26.773  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:26.773   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -80 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:26.773   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:26.783   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:26.783   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:26.783   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:26.783   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:26.783   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:26.783   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:26.783   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:26.783   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:26.793   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:26.793   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:26.793   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:26.793   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:26.793   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:26.793   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:26.793   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:26.803   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:26.803   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:26.803   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:26.803   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:26.803   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:26.803   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:26.803   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:26.803   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:26.803   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:27.003   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:27.003   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:27.083  3092  3098 D dalvikvm: Debugger has detached; object registry had 1 entries
+05-23 11:26:27.324  3092  3092 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:27.324  3092  3092 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:27.324  3092  3092 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:27.324  3092  3092 I System.out: directory is exit,the errnoException.errno is 17
+05-23 11:26:27.354   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:27.354   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:27.384  3092  3092 D FotaUpdate: AInReceiver:->update self finish packageName=com.alading.launcher isAppReplacing=true
+05-23 11:26:27.424   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.424   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.434   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.434   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.434   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.434   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.434   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.434   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.434   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.434   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.434   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.434   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.434   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.434   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.434   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.434   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.434   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.434   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.434   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.444   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.444   592   857 D Settings: newValuesVersion = 7
+05-23 11:26:27.444   592   857 D Settings: mValues.get(name) = null
+05-23 11:26:27.554  3092  3096 D dalvikvm: GC_CONCURRENT freed 348K, 19% free 2313K/2836K, paused 5ms+3ms, total 94ms
+05-23 11:26:27.554  3092  3092 D dalvikvm: WAIT_FOR_CONCURRENT_GC blocked 42ms
+05-23 11:26:27.554  3092  3104 D dalvikvm: WAIT_FOR_CONCURRENT_GC blocked 31ms
+05-23 11:26:27.764   179   214 D phoneserver: rsrp[0]=80,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:27.764   179   214 D phoneserver: +CESQ: 99,99,255,255,24,80
+05-23 11:26:27.774  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:27.774   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -80 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:27.774   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:27.784   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:27.784   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:27.784   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:27.784   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:27.784   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:27.784   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:27.784   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:27.784   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:27.784   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:27.784   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:27.784   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:27.784   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:27.784   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:27.784   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:27.784   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:27.794   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:27.804   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:27.804   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:27.804   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:27.804   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:27.804   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:27.804   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:27.804   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:27.804   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:27.834   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:27.914   592   832 W PackageManager: com.android.musicfx == 1 == 1 0
+05-23 11:26:27.914   592   602 W PackageManager: com.android.musicfx == 1 == 1 0
+05-23 11:26:27.924  2549  2549 I pluginreceiver: context = android.app.ReceiverRestrictedContext@41e23d40,intent.getAction() = android.intent.action.PACKAGE_ADDED
+05-23 11:26:28.024   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:28.024   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:28.074   592   857 W PackageManager: com.android.musicfx == 1 == 1 0
+05-23 11:26:28.074   592   924 W PackageManager: com.android.musicfx == 1 == 1 0
+05-23 11:26:28.335   271   278 D ENGPC   : parse_event: event { 'change', '/devices/sprd_battery.17/power_supply/battery', 'power_supply', '' }
+05-23 11:26:28.335   180   324 D ENGPC   : parse_event: event { 'change', '/devices/sprd_battery.17/power_supply/battery', 'power_supply', '' }
+05-23 11:26:28.345   174   267 I ThermalChargeDetect: charge status: Full
+05-23 11:26:28.395   673   673 D KeyguardUpdateMonitor: received broadcast android.intent.action.BATTERY_CHANGED
+05-23 11:26:28.425   673   673 I StatusBar.BatteryController: 1.battery level = 100,status = 5
+05-23 11:26:28.425   673   673 D KeyguardUpdateMonitor: handleBatteryUpdate
+05-23 11:26:28.615   157   157 D gralloc.sc8830: fb_post fps = 1.200749
+05-23 11:26:28.645   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:28.645   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:28.765   179   214 D phoneserver: rsrp[0]=80,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:28.765   179   214 D phoneserver: +CESQ: 99,99,255,255,24,80
+05-23 11:26:28.775   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -80 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:28.775  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:28.775   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:28.775   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:28.775   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:28.775   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:28.775   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:28.775   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:28.785   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:28.785   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:28.785   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:28.785   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:28.785   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:28.785   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:28.785   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:28.785   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:28.785   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:28.785   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:28.785   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:28.795   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:28.795   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:28.795   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:28.795   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:28.795   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:28.795   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:28.795   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:28.795   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:29.025   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:29.025   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:29.766   179   214 D phoneserver: rsrp[0]=80,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:29.766   179   214 D phoneserver: +CESQ: 99,99,255,255,24,80
+05-23 11:26:29.776   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -80 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:29.776  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:29.776   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:29.776   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:29.776   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:29.776   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:29.776   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:29.776   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:29.786   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:29.786   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:29.786   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:29.786   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:29.786   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:29.786   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:29.786   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:29.786   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:29.786   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:29.786   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:29.786   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:29.786   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:29.796   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:29.806   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:29.806   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:29.806   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:29.806   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:29.806   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:29.806   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:29.836   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:29.926   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:29.926   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:30.026   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:30.026   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:30.767   179   214 D phoneserver: rsrp[0]=80,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:30.767   179   214 D phoneserver: +CESQ: 99,99,255,255,24,80
+05-23 11:26:30.777  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:30.777   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -80 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:30.777   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:30.777   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:30.777   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:30.777   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:30.777   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:30.787   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:30.787   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:30.787   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:30.787   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:30.787   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:30.787   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:30.787   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:30.787   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:30.787   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:30.787   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:30.787   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:30.787   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:30.787   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:30.787   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:30.787   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:30.787   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:30.787   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:30.787   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:30.797   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:30.797   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:31.037   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:31.037   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:31.207   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:31.207   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:31.758   179   214 D phoneserver: rsrp[0]=79,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:31.758   179   214 D phoneserver: +CESQ: 99,99,255,255,29,79
+05-23 11:26:31.768   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -79 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:31.768  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:31.768   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:31.768   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:31.768   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:31.778   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:31.778   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:31.778   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:31.778   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:31.778   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:31.778   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:31.778   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:31.778   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:31.778   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:31.778   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:31.778   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:31.788   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:31.788   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:31.788   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:31.788   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:31.788   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:31.788   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:31.788   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:31.788   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:31.788   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:31.788   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:31.788   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:31.828   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0
+05-23 11:26:32.028   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:32.028   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:32.759   179   214 D phoneserver: rsrp[0]=79,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:32.759   179   214 D phoneserver: +CESQ: 99,99,255,255,29,79
+05-23 11:26:32.769  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:32.769   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -79 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:32.769   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:32.769   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:32.769   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:32.769   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:32.769   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:32.769   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:32.769   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:32.769   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:32.779   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:32.779   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:32.779   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:32.779   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:32.779   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:32.779   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:32.779   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:32.779   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:32.779   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:32.779   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:32.779   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:32.779   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:32.779   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:32.779   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:32.779   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:32.779   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:32.779   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:33.029   698   698 D Settings: newValuesVersion = 35
+05-23 11:26:33.029   698   698 D Settings: mValues.get(name) = null
+05-23 11:26:33.560   592   592 D dalvikvm: GC_EXPLICIT freed 1218K, 27% free 7641K/10380K, paused 7ms+7ms, total 129ms
+05-23 11:26:33.750   167   167 E SLOGCP  : int MediaStorage::check_quota(): data large: 10513904/10M
+05-23 11:26:33.750   167   167 E SLOGCP  : virtual void LogPipeHandler::process(int): CP cp_5mode save log error [16(Device or resource busy)]
+05-23 11:26:33.770   179   214 D phoneserver: rsrp[0]=79,rscp[0]=255,rxlev[0]=99 ind_str= 
+05-23 11:26:33.770   179   214 D phoneserver: +CESQ: 99,99,255,255,29,79
+05-23 11:26:33.770   673   673 D StatusBar.NetworkController: onSignalStrengthsChanged on phoneId0signalStrength=SignalStrength: 99 -1 -120 -160 -120 -1 -1 99 -79 2147483647 2147483647 2147483647 gsm|lte level=4LTELevel=4
+05-23 11:26:33.770   673   673 D StatusBar.NetworkController: phoneid=0 isexist=true  5
+05-23 11:26:33.770  2954  2954 D MainDialog:  oldLevel = 4 level = 4 isSimAvail = true
+05-23 11:26:33.770   673   673 D StatusBar.NetworkController: isSupportLTE = false  isCardAbsent = false
+05-23 11:26:33.770   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:33.770   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:33.770   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getState(): 0
+05-23 11:26:33.780   673   673 E StatusBar.NetworkController: mServiceState[phoneId].getDataRegState(): 0
+05-23 11:26:33.780   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:33.780   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:33.780   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:33.780   673   673 D StatusBar.NetworkController: phoneId = 0 colorIndex = 0 mInetCondition=0 iconLevel=4
+05-23 11:26:33.780   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:33.780   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:33.780   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:33.780   673   673 D TelephonyManager: getRadioFeatures: phoneId=0
+05-23 11:26:33.780   673   673 D TelephonyManager: getRadioCapbility: ssdaMode=tdd-csfb
+05-23 11:26:33.780   673   673 D TelephonyManager: getRadioFeatures: rCapbility=TDD_CSFB, testMode=8
+05-23 11:26:33.780   673   673 D StatusBar.NetworkController: phoneId: 0  refreshViews:   mAirplaneMode=false emergencyOnly=false no_wifi no_wifi mWifiIconId=0x0 mQSWifiIconId=0x0 wifiLabel= mHasMobileDataFeature=true mShowPhoneRSSIForData=false mPhoneSignalIconId=0x7f020107 mDataSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_sprd Phone_Signal_Level=4 GPRS &NetworkRoaming=false mMobileActivityIconId=0x7f0200c0(mDataActivity=0) mDataTypeIconId=0x7f0200c8/com.android.systemui:drawable/stat_sys_data_fully_connected_4g_ex   combinedSignalIconId=0x7f020105/com.android.systemui:drawable/stat_sys_signal_4_ex mobileLabel=中国移动4G combinedLabel=中国移动4G mLastDataDirectionOverlayIconId=0x7f0200c0
+05-23 11:26:33.780   673   673 D Settings: newValuesVersion = 2
+05-23 11:26:33.780   673   673 D Settings: mValues.get(name) = 0
+05-23 11:26:33.790   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:33.790   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:33.790   673   673 D QuickSettingsModel: isStandby = true
+05-23 11:26:33.790   673   673 D Settings: newValuesVersion = 7
+05-23 11:26:33.790   673   673 D Settings: mValues.get(name) = null
+05-23 11:26:33.790   673   673 D QuickSettingsModel: onVoWifiChanged multiModeSlot = 0 isVoWifiAvailable = false isStandby = true
+05-23 11:26:33.830   592   975 D LIBGPS  : watchdog_open PowerState:GE2 CP SLEEP,readcount:0

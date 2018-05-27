@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alading Launcher</string>
+    <string name="setting">设置</string>
+    <string name="communication">通讯</string>
+    <string name="entertrainment">娱乐</string>
+    <string name="safe_study">安全学习</string>
+    <string name="setting_tool">设置工具</string>
+    <string name="main">主界面</string>
+    
+	<string name="message">新消息</string>
+    <string name="device_state">设备状态</string>
+    <string name="step_counting">计步</string>
+    <string name="health">健康</string>
+    <string name="weather">天气</string>
+    
+    
+    <string name="comm_call_records">通话记录</string>
+    <string name="comm_contacts">电话本</string>
+    <string name="comm_dial">拨号</string>
+    <string name="comm_sms">短信</string>
+
+    <string name="ente_camera">相机</string>
+    <string name="ente_music">音乐</string>
+	<string name="ente_weixin">微信</string>
+    <string name="ente_qq">QQ</string>
+    
+    <string name="safe_alading">阿拉町</string>
+    <string name="safe_chat">微聊</string>
+	<string name="safe_gps">GPS卫星</string>
+	<string name="safe_friends">交友</string>
+    <string name="safe_sport">运动健康</string>
+    <string name="safe_step_count">计步</string>
+    
+    <string name="tool_setting">设置</string>
+    <string name="tool_file">文件管理</string>
+	<string name="tool_calendar">日历</string>
+    <string name="tool_alarm">闹钟</string>
+    
+    <string name="edit_dialog_txt">请先设置号码</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    
+    <string name="edit_number_phonenumber1_txt">亲情号码1</string>
+    <string name="edit_number_phonenumber2_txt">亲情号码2</string>
+    <string name="edit_number_phonenumber3_txt">SOS号码</string>
+    
+    <string name="option_txt">选项</string>
+    <string name="edit_del">清除</string>
+    <string name="cancle">取消</string>
+    <string name="back">返回</string>
+    <string name="save">保存</string>
+    <string name="app_not_install">App 未安装</string>
+    <string name="insert_sim_card">请插入Sim卡</string>
+    <string name="sim_not_avaliab">Sim卡不可用</string>
+    <string name="sim_emergency">仅可紧急呼叫</string>
+    
+    <string name="unread_message_title">短信提醒</string>
+    <string name="unread_message">你有%1$d条未读短信</string>
+    
+    <string name="unread_weiliao_title">微聊信息</string>
+    <string name="unread_weiliao">你有%1$d条微聊消息</string>
+    
+    <string name="unread_call_title">未接来电</string>
+    <string name="unread_call">你有%1$d个未接来电</string>
+</resources>

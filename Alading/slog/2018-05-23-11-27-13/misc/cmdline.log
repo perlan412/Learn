@@ -1,0 +1,3 @@
+
+============ cmdline  18-05-23 11:27:13  ==============
+loglevel=1 console=ttyS1,115200n8 init=/init root=/dev/ram0 rw androidboot.hardware=sp9820a_c110 lcd_id=ID7789 lcd_adc=1255 lcd_base=8ffca000   mem_cs=1, mem_cs0_sz=10000000  sysdump_magic=85500000 mtdparts=sprd-nand:256k(splloader),1280k(uboot),-(ubipac) modem=poweron ltemode=lcsfb 32k.less=0 crystal=0   androidboot.serialno=02463484782052123279

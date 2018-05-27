@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alading.launcher"
+    android:versionCode="1"
+    android:versionName="1.2">
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" /> -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <!-- <uses-permission android:name="android.permission.CALL_PRIVILEGED" /> -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" /> <!-- 读取通讯录权限 -->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <!-- 写入通讯录权限 -->
+    <application
+        android:name=".LauncherApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:persistent="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.taobao.android.hotfix.IDSECRET"
+            android:value="24751194-1" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="c26a890d3f5bb5eaf1f0111d8e26e44c" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCPrH9ojujiQK5KNqc9+tKkm1opQUizdHBBPNOvuvpcFB8JDiVKyDBnP0lwjw5mFlHFOV1RqPARO5C2PP17mXd6gytk8fb20Z839+le0QHMqPap7yzfs9Ci9UjMcLsA//KF9VcW+cBWC0DYU9yw4cXnyvLR0iQHt3JHFRzMusKx+jnwki96atNE27Arr1Jtgm6XR5mOL3cCMkJ1X5g/MGiJr+4kxokaSg7EKgx9LmjRovn+8F7m8o7l0J+jwHfHWROGCB4hnq301t8rZnnWfFrg1YBduylIohswxniNwhNNNzbg8JWm2flsc7neaN76SQkMKcXrWqTIhUIMAX/2z5jdAgMBAAECggEAYCpblUaihl44yp/OTWQHffol3Rs/aC51vJTUM/l4/gzRwSPgvi9EhrcLlvWJ87bYwKPm3HOxTDeMYw5rtEFCgZQuhYCXhxlD8xhS8g3/oFcv0wquBIW9DnYTZhPGd6LZV+ShiFVe8bjSjHmFbDeSWdWztdFsIGYfbYiqIDaZfro16ccvIH2xHZKCpPlNDv5u/LH7StmB/FaMflBJkrXlL35zdpK8KzEXW6OwPkjCZ3zDJzdCawc8Ht76ToSBqwaNBlH9rqLPUgBy1MOCK7q9XVSBIIoVDSgSKFDSpT9VpM2PNDFB3pXrcxE8yrSbnHi+7oI0dO7aHLfVuGJe3PWBwQKBgQDUCl5EP9kDZrMu0a45MrI3bJxX9ZwL361RNoowzbLubbPVhZiO1OYcQrkYPI9lsXl/WcIe+xmen5jJO/WIgc50HZ5Duvu70s70gqojiApExnivbdcKj/+NP5fOw3BLhJQAtmHwhGH5rcBQ08BTKE5OuCbdlq1BTdKL41bsoW7hJQKBgQCtdbPZcVRTn+cGTDJdkSpDrx28AZJZ+mBhjye3DTVMategpuTBYfG5B2TE8kMCnFIs4BwXIFOLl36w2SJGQ98Coyn5Bjw+tSUgZrSpydL37kFTfjMbMGfTTld8aNX1p06mCAFzGRvuRyovOyKk6JX3vQpNSUEpGVHVB59i9RUXWQKBgG1/KSzPV86k0zUDPJf28QckBBx8DegnysWch4IqRxNO/UXvJlfj4yyG3DSC2X4nRtmXzWHYQ2OhgPGyD9o9RhK6VMcfIO3eL9cePqP4lWzsnNfiveCLeelEBK3WSQAGZ7Nye2MLydh4fE6A+tk2gDGwcQmOzMtjV627aWDrAGotAoGBAKXYV7Cazol15Sj8SVt0o/g6wi8zQX6OCQC+Ira+BiueK7QKXcUXpEnIa+xxxOgGFfuZ+sGRws9AdX0Y3dBYrCyVXFggQhGimHC2Qh3kPbWXMxZlHu/sBBjgWn00rv1Ejcno9Znac/4KRKcL3z/UsS5ArEzgsVBeSQNpWlb/BL9hAoGALPYmU+Yn7QzsT6nizmkwQ8jyRWEhwAFRJ1HXLf9fdmLjhvs7ulztLvar+Yb2u57m9RRnC8+pLf21XkoEPrWutHXJpCOZbTSUDgkDFhc90Wr3G3CLPJUjTAe2oT48/fI2HZa1YHy3e4nIJ2NSd+5GaWv3sacsOgO61yIxo1O7suo=" />
+
+        <activity
+            android:name=".WebActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:clearTaskOnLaunch="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CommunicationActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EntertainmentActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ErweimaActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".WechatMainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".EditNumberActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor"
+            android:theme="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".receiver.BootReceiver" >
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>>
+
+        <service
+            android:name="com.taobao.sophix.aidl.DownloadService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.taobao.hotfix.action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".service.RegisterService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
+    </application>
+
+</manifest>

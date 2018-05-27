@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="preference_title_enable_color">#ffebebeb</color>
+    
+    <color name="preference_spinner_item_enable_color">#ffebebeb</color>
+    
+	<color name="preference_summary_enable_color">#ffababab</color>
+	
+	<color name="preference_press_color">#ff000000</color>
+	
+	<color name="preference_focus_color">#ff000000</color>
+	
+	<color name="preference_summary_focus_color">#ff000000</color>
+	
+	<color name="preference_disable_color">#55888888</color>
+	
+	<color name="silvery">#ffe0e0e0</color>
+	
+	<color name="transparent">#00000000</color>
+	<color name="black">#ff000000</color>
+	<color name="white">#ffffffff</color>
+	<color name="red">#ffff0000</color>
+	<color name="green">#ff00ff00</color>
+	<color name="blue">#ff0000ff</color>
+	<color name="yellow">#ffffff00</color>
+	<color name="gray">#dddddd</color>
+	
+	<color name="message_txt_unreadcall">#ffe84c3d</color>
+	<color name="message_txt_weiliao">#ff88ff00</color>
+	<color name="message_txt_back">#ffa1a1a1</color>
+	
+	<drawable name="transparent">#00000000</drawable>
+	<drawable name="black">#ff000000</drawable>
+	<drawable name="white">#ffffffff</drawable>
+	<drawable name="red">#ffff0000</drawable>
+	<drawable name="green">#ff00ff00</drawable>
+	<drawable name="blue">#ff0000ff</drawable>
+	<drawable name="yellow">#ffffff00</drawable>
+
+	<color name="colorTextViewPress">#1B940A</color>
+	<color name="colorTextViewNormal">#7F7F7F</color>
+</resources>

@@ -1,0 +1,717 @@
+
+============ meminfo  18-05-23 11:27:13  ==============
+MemTotal:         185600 kB
+MemFree:          122336 kB
+Buffers:               4 kB
+Cached:            18100 kB
+SwapCached:            0 kB
+Active:            20724 kB
+Inactive:          11732 kB
+Active(anon):      14432 kB
+Inactive(anon):      104 kB
+Active(file):       6292 kB
+Inactive(file):    11628 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:        204796 kB
+SwapFree:         204796 kB
+Dirty:                16 kB
+Writeback:             0 kB
+AnonPages:         14488 kB
+Mapped:             7636 kB
+Shmem:               128 kB
+Slab:              10232 kB
+SReclaimable:       3504 kB
+SUnreclaim:         6728 kB
+KernelStack:        1752 kB
+PageTables:          772 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      297596 kB
+Committed_AS:      27404 kB
+VmallocTotal:     761856 kB
+VmallocUsed:       35720 kB
+VmallocChunk:     556420 kB
+
+============ binder_state  18-05-23 11:27:13  ==============
+binder state:
+proc 159
+  thread 159: l 12
+  thread 291: l 12
+  node 20: u00000000b8b88150 c00000000b8b88134 hs 1 hw 1 ls 0 lw 0 is 1 iw 1 proc 141
+  ref 18: desc 0 node 1 s 1 w 1 d   (null)
+proc 162
+  thread 162: l 12
+  node 13: u00000000b768a0b0 c00000000b768a08c hs 1 hw 1 ls 0 lw 0 is 1 iw 1 proc 141
+  ref 11: desc 0 node 1 s 1 w 1 d   (null)
+proc 157
+  thread 157: l 00
+  thread 251: l 12
+  thread 252: l 11
+proc 182
+  thread 226: l 00
+proc 183
+  thread 227: l 00
+proc 141
+  thread 141: l 12
+  node 1: u0000000000000000 c0000000000000000 hs 1 hw 1 ls 1 lw 1 is 3 iw 3 proc 159 162 140
+  ref 7: desc 1 node 6 s 1 w 0 d cf422ec0
+  ref 14: desc 2 node 13 s 1 w 0 d cf508200
+  ref 21: desc 3 node 20 s 1 w 0 d cd0c1500
+proc 140
+  thread 140: l 02
+  node 6: u000000000023a0b0 c000000000023a704 hs 1 hw 1 ls 0 lw 0 is 1 iw 1 proc 141
+  ref 4: desc 0 node 1 s 1 w 1 d   (null)
+
+============ binder_stats  18-05-23 11:27:13  ==============
+binder stats:
+BC_TRANSACTION: 7
+BC_REPLY: 6
+BC_FREE_BUFFER: 12
+BC_INCREFS: 3
+BC_ACQUIRE: 6
+BC_INCREFS_DONE: 3
+BC_ACQUIRE_DONE: 3
+BC_REGISTER_LOOPER: 1
+BC_ENTER_LOOPER: 6
+BC_REQUEST_DEATH_NOTIFICATION: 3
+BR_TRANSACTION: 6
+BR_REPLY: 6
+BR_DEAD_REPLY: 1
+BR_TRANSACTION_COMPLETE: 12
+BR_INCREFS: 3
+BR_ACQUIRE: 3
+BR_SPAWN_LOOPER: 1
+proc: active 7 total 7
+thread: active 10 total 10
+node: active 4 total 4
+ref: active 6 total 6
+death: active 3 total 3
+transaction: active 0 total 12
+transaction_complete: active 0 total 12
+proc 159
+  threads: 2
+  requested threads: 0+0/15
+  ready threads 2
+  free async space 520192
+  nodes: 1
+  refs: 1 s 1 w 1
+  buffers: 0
+  pending transactions: 0
+  BC_TRANSACTION: 2
+  BC_FREE_BUFFER: 2
+  BC_INCREFS: 1
+  BC_ACQUIRE: 1
+  BC_INCREFS_DONE: 1
+  BC_ACQUIRE_DONE: 1
+  BC_ENTER_LOOPER: 2
+  BR_REPLY: 2
+  BR_TRANSACTION_COMPLETE: 2
+  BR_INCREFS: 1
+  BR_ACQUIRE: 1
+proc 162
+  threads: 1
+  requested threads: 0+0/15
+  ready threads 1
+  free async space 520192
+  nodes: 1
+  refs: 1 s 1 w 1
+  buffers: 0
+  pending transactions: 0
+  BC_TRANSACTION: 2
+  BC_FREE_BUFFER: 2
+  BC_INCREFS: 1
+  BC_ACQUIRE: 1
+  BC_INCREFS_DONE: 1
+  BC_ACQUIRE_DONE: 1
+  BC_ENTER_LOOPER: 1
+  BR_REPLY: 2
+  BR_TRANSACTION_COMPLETE: 2
+  BR_INCREFS: 1
+  BR_ACQUIRE: 1
+proc 157
+  threads: 3
+  requested threads: 0+1/4
+  ready threads 2
+  free async space 520192
+  nodes: 0
+  refs: 0 s 0 w 0
+  buffers: 0
+  pending transactions: 0
+  BC_REGISTER_LOOPER: 1
+  BC_ENTER_LOOPER: 1
+  BR_SPAWN_LOOPER: 1
+proc 182
+  threads: 1
+  requested threads: 0+0/15
+  ready threads 0
+  free async space 520192
+  nodes: 0
+  refs: 0 s 0 w 0
+  buffers: 0
+  pending transactions: 0
+proc 183
+  threads: 1
+  requested threads: 0+0/15
+  ready threads 0
+  free async space 520192
+  nodes: 0
+  refs: 0 s 0 w 0
+  buffers: 0
+  pending transactions: 0
+proc 141
+  threads: 1
+  requested threads: 0+0/0
+  ready threads 1
+  free async space 65536
+  nodes: 1
+  refs: 3 s 3 w 0
+  buffers: 0
+  pending transactions: 0
+  BC_REPLY: 6
+  BC_FREE_BUFFER: 6
+  BC_ACQUIRE: 3
+  BC_ENTER_LOOPER: 1
+  BC_REQUEST_DEATH_NOTIFICATION: 3
+  BR_TRANSACTION: 6
+  BR_TRANSACTION_COMPLETE: 6
+proc 140
+  threads: 1
+  requested threads: 0+0/0
+  ready threads 0
+  free async space 520192
+  nodes: 1
+  refs: 1 s 1 w 1
+  buffers: 0
+  pending transactions: 0
+  BC_TRANSACTION: 3
+  BC_FREE_BUFFER: 2
+  BC_INCREFS: 1
+  BC_ACQUIRE: 1
+  BC_INCREFS_DONE: 1
+  BC_ACQUIRE_DONE: 1
+  BC_ENTER_LOOPER: 1
+  BR_REPLY: 2
+  BR_DEAD_REPLY: 1
+  BR_TRANSACTION_COMPLETE: 2
+  BR_INCREFS: 1
+  BR_ACQUIRE: 1
+
+============ binder_transactions  18-05-23 11:27:13  ==============
+binder transactions:
+
+============ binder_transaction_log  18-05-23 11:27:13  ==============
+0: call  from 140:140 to 0:0 node 0 handle 0 size 0:0
+2: call  from 140:140 to 141:0 node 1 handle 0 size 0:0
+3: reply from 141:141 to 140:140 node 0 handle 0 size 4:0
+5: call  from 140:140 to 141:0 node 1 handle 0 size 120:4
+8: reply from 141:141 to 140:140 node 0 handle 0 size 4:0
+9: call  from 162:162 to 141:0 node 1 handle 0 size 0:0
+10: reply from 141:141 to 162:162 node 0 handle 0 size 4:0
+12: call  from 162:162 to 141:0 node 1 handle 0 size 140:4
+15: reply from 141:141 to 162:162 node 0 handle 0 size 4:0
+16: call  from 159:159 to 141:0 node 1 handle 0 size 0:0
+17: reply from 141:141 to 159:159 node 0 handle 0 size 4:0
+19: call  from 159:159 to 141:0 node 1 handle 0 size 120:4
+22: reply from 141:141 to 159:159 node 0 handle 0 size 4:0
+
+============ binder_failed_transaction_log  18-05-23 11:27:13  ==============
+0: call  from 140:140 to 0:0 node 0 handle 0 size 0:0
+
+============ query_task_fd  18-05-23 11:27:13  ==============
+Use default value: task_threshold 30; fd_threshold 100
+
+
+******************** dirpath : /proc/180 ******************** 
+SUMMERY:
+ proc name	: phoneserver
+ task count	: 30	(threshold 30)
+ fd count	: 54	(threshold 100)
+
+TASK:
+/proc/180/task/180 -> phoneserver
+/proc/180/task/185 -> phoneserver
+/proc/180/task/187 -> phoneserver
+/proc/180/task/188 -> phoneserver
+/proc/180/task/189 -> phoneserver
+/proc/180/task/190 -> phoneserver
+/proc/180/task/191 -> phoneserver
+/proc/180/task/192 -> phoneserver
+/proc/180/task/193 -> phoneserver
+/proc/180/task/194 -> phoneserver
+/proc/180/task/195 -> phoneserver
+/proc/180/task/196 -> phoneserver
+/proc/180/task/197 -> phoneserver
+/proc/180/task/198 -> phoneserver
+/proc/180/task/199 -> phoneserver
+/proc/180/task/200 -> phoneserver
+/proc/180/task/201 -> phoneserver
+/proc/180/task/202 -> phoneserver
+/proc/180/task/203 -> phoneserver
+/proc/180/task/204 -> phoneserver
+/proc/180/task/205 -> phoneserver
+/proc/180/task/206 -> phoneserver
+/proc/180/task/207 -> phoneserver
+/proc/180/task/208 -> phoneserver
+/proc/180/task/209 -> phoneserver
+/proc/180/task/210 -> phoneserver
+/proc/180/task/211 -> phoneserver
+/proc/180/task/212 -> phoneserver
+/proc/180/task/213 -> phoneserver
+/proc/180/task/214 -> phoneserver
+
+FD:
+/proc/180/fd/0 -> /dev/null
+/proc/180/fd/1 -> /dev/null
+/proc/180/fd/2 -> /dev/null
+/proc/180/fd/3 -> /dev/log/main
+/proc/180/fd/4 -> /dev/log/radio
+/proc/180/fd/5 -> /dev/log/events
+/proc/180/fd/6 -> /dev/log/system
+/proc/180/fd/7 -> socket:[4939]
+/proc/180/fd/8 -> /dev/__properties__
+/proc/180/fd/9 -> socket:[4940]
+/proc/180/fd/10 -> /sys/power/wake_lock
+/proc/180/fd/11 -> /sys/power/wake_unlock
+/proc/180/fd/12 -> /dev/stty_lte0
+/proc/180/fd/14 -> /dev/stty_lte1
+/proc/180/fd/15 -> /dev/stty_lte2
+/proc/180/fd/16 -> /dev/stty_lte3
+/proc/180/fd/17 -> /dev/stty_lte4
+/proc/180/fd/18 -> /dev/stty_lte5
+/proc/180/fd/19 -> /dev/stty_lte6
+/proc/180/fd/20 -> /dev/stty_lte7
+/proc/180/fd/21 -> /dev/stty_lte8
+/proc/180/fd/22 -> /dev/stty_lte9
+/proc/180/fd/23 -> /dev/stty_lte10
+/proc/180/fd/24 -> /dev/stty_lte11
+/proc/180/fd/25 -> /dev/ptmx
+/proc/180/fd/26 -> /dev/pts/0
+/proc/180/fd/27 -> /dev/ptmx
+/proc/180/fd/28 -> /dev/pts/1
+/proc/180/fd/29 -> /dev/ptmx
+/proc/180/fd/30 -> /dev/pts/2
+/proc/180/fd/31 -> /dev/ptmx
+/proc/180/fd/32 -> /dev/pts/3
+/proc/180/fd/33 -> /dev/ptmx
+/proc/180/fd/34 -> /dev/pts/4
+/proc/180/fd/35 -> /dev/ptmx
+/proc/180/fd/36 -> /dev/pts/5
+/proc/180/fd/37 -> /dev/ptmx
+/proc/180/fd/38 -> /dev/pts/6
+/proc/180/fd/39 -> /dev/ptmx
+/proc/180/fd/40 -> /dev/pts/7
+/proc/180/fd/41 -> /dev/ptmx
+/proc/180/fd/42 -> /dev/pts/8
+/proc/180/fd/43 -> /dev/ptmx
+/proc/180/fd/44 -> /dev/pts/9
+/proc/180/fd/45 -> /dev/ptmx
+/proc/180/fd/46 -> /dev/pts/10
+/proc/180/fd/47 -> /dev/ptmx
+/proc/180/fd/48 -> /dev/pts/11
+/proc/180/fd/49 -> /dev/ptmx
+/proc/180/fd/50 -> /dev/pts/12
+/proc/180/fd/51 -> /dev/ptmx
+/proc/180/fd/52 -> /dev/pts/13
+/proc/180/fd/53 -> /dev/ptmx
+/proc/180/fd/54 -> /dev/pts/14
+ERROR! Fail to opendir /proc/319/task
+ERROR! Fail to opendir /proc/319/fd
+
+ == SUCCESS! ==
+
+============ df  18-05-23 11:27:13  ==============
+Filesystem               Size     Used     Avail     Free   Blksize
+/dev                    90.6M   128.0K    90.5M    90.5M   4096
+/sys/fs/cgroup          90.6M     0.0K    90.6M    90.6M   4096
+/mnt/asec               90.6M     0.0K    90.6M    90.6M   4096
+/mnt/obb                90.6M     0.0K    90.6M    90.6M   4096
+/system                211.6M   187.5M    24.1M    24.1M   4096
+/data                  118.4M    74.2M    44.2M    44.2M   4096
+/cache                  23.2M    24.0K    23.2M    23.2M   4096
+/productinfo             1.1M    56.0K     1.1M     1.1M   4096
+/mnt/shell/emulated    118.4M    74.2M    44.2M    44.2M   4096
+/storage/temp_sd       118.4M    74.2M    44.2M    44.2M   4096
+/storage/sdcard0       118.4M    74.2M    44.2M    44.2M   4096
+
+============ ps  18-05-23 11:27:13  ==============
+USER     PID   PPID  VSIZE  RSS     WCHAN    PC         NAME
+root      1     0     632    468   c00fda10 0001a094 S /init
+root      2     0     0      0     c0040cec 00000000 S kthreadd
+root      3     2     0      0     c0047690 00000000 S ksoftirqd/0
+root      4     2     0      0     c003b918 00000000 S kworker/0:0
+root      5     2     0      0     c003b918 00000000 S kworker/0:0H
+root      6     2     0      0     c003b918 00000000 S kworker/u4:0
+root      7     2     0      0     c0047690 00000000 S migration/0
+root      8     2     0      0     c008bec0 00000000 S rcu_preempt
+root      9     2     0      0     c008bbe8 00000000 S rcu_bh
+root      10    2     0      0     c008bbe8 00000000 S rcu_sched
+root      11    2     0      0     c0047690 00000000 S migration/1
+root      12    2     0      0     c0047690 00000000 S ksoftirqd/1
+root      13    2     0      0     c003b918 00000000 S kworker/1:0
+root      14    2     0      0     c003b918 00000000 S kworker/1:0H
+root      15    2     0      0     c003b33c 00000000 S khelper
+root      16    2     0      0     c003b33c 00000000 S suspend_sys_syn
+root      17    2     0      0     c003b33c 00000000 S suspend
+root      18    2     0      0     c003b33c 00000000 S writeback
+root      19    2     0      0     c003b33c 00000000 S bioset
+root      20    2     0      0     c003b33c 00000000 S crypto
+root      21    2     0      0     c003b33c 00000000 S kblockd
+root      22    2     0      0     c0334968 00000000 S khubd
+root      23    2     0      0     c003b918 00000000 S kworker/u4:1
+root      48    2     0      0     c045255c 00000000 S pm_print
+root      49    2     0      0     c003b918 00000000 S kworker/0:1
+root      50    2     0      0     c003b33c 00000000 S cfg80211
+root      51    2     0      0     c003b918 00000000 S kworker/u5:0
+root      52    2     0      0     c003b33c 00000000 S 70a00000.spi
+root      53    2     0      0     c003b33c 00000000 S 70b00000.spi
+root      54    2     0      0     c003b33c 00000000 S 70c00000.spi
+root      55    2     0      0     c003b33c 00000000 S sprdbat_monitor
+root      56    2     0      0     c00bcfb0 00000000 S kswapd0
+root      57    2     0      0     c00dfea8 00000000 S ksmd
+root      58    2     0      0     c0124eb8 00000000 S fsnotify_mark
+root      79    2     0      0     c003b33c 00000000 S dwc_otg
+root      80    2     0      0     c003b33c 00000000 S USB2pcWq
+root      81    2     0      0     c003b33c 00000000 S USBDetectWq
+root      82    2     0      0     c003b33c 00000000 S USBReinitWq
+root      83    2     0      0     c003b918 00000000 S kworker/1:1
+root      84    2     0      0     c003b33c 00000000 S ite7258_ts
+root      85    2     0      0     c003b33c 00000000 S stk_mems_wq
+root      87    2     0      0     c042ade8 00000000 S ion_heap_system
+root      88    2     0      0     c042ade8 00000000 S ion_heap_carveo
+root      89    2     0      0     c042ade8 00000000 S ion_heap_carveo
+root      90    2     0      0     c003b33c 00000000 S binder
+root      91    2     0      0     c043dc58 00000000 S krtccd
+root      92    2     0      0     c0467c00 00000000 S sbuf-5-4
+root      93    2     0      0     c0467c00 00000000 S sbuf-5-5
+root      94    2     0      0     c0467c00 00000000 S sbuf-5-21
+root      95    2     0      0     c0467c00 00000000 S sbuf-5-6
+root      96    2     0      0     c0467c00 00000000 S dual_sim_plug-5
+root      97    2     0      0     c003b33c 00000000 S saudio
+root      98    2     0      0     c046bd98 00000000 S saudio-5-10
+root      99    2     0      0     c0467c00 00000000 S sblock-5-13
+root      100   2     0      0     c0467c00 00000000 S sblock-5-10
+root      101   2     0      0     c003b33c 00000000 S saudio
+root      102   2     0      0     c0467c00 00000000 S sblock-5-11
+root      103   2     0      0     c046bd98 00000000 S saudio-5-14
+root      104   2     0      0     c0467c00 00000000 S sblock-5-12
+root      105   2     0      0     c0467c00 00000000 S sblock-5-17
+root      106   2     0      0     c0467c00 00000000 S sblock-5-14
+root      107   2     0      0     c0467c00 00000000 S sblock-5-15
+root      108   2     0      0     c0467c00 00000000 S sblock-5-16
+root      109   2     0      0     c003b918 00000000 S kworker/u4:2
+root      110   2     0      0     c0467c00 00000000 S sblock-5-2
+root      111   2     0      0     c046bd98 00000000 S imsbr-data[5-2]
+root      112   2     0      0     c0467c00 00000000 S sblock-5-3
+root      113   2     0      0     c046bd98 00000000 S imsbr-ctrl[5-3]
+root      114   2     0      0     c003b33c 00000000 S deferwq
+root      115   2     0      0     c0467c00 00000000 S sipx-5-7
+root      116   2     0      0     c0467c00 00000000 S sipx-5-8
+root      117   2     0      0     c0467c00 00000000 S sipx-5-9
+root      118   2     0      0     c0467c00 00000000 S sipx-5-18
+root      119   2     0      0     c0467c00 00000000 S sipx-5-19
+root      120   2     0      0     c0467c00 00000000 S sipx-5-20
+root      122   2     0      0     c003b33c 00000000 S f_mtp
+root      123   2     0      0     c0368814 00000000 S file-storage
+root      124   2     0      0     c003b33c 00000000 S VserTestWq
+root      125   2     0      0     c003b33c 00000000 S headset_button
+root      126   2     0      0     c003b33c 00000000 S headset_detect
+root      127   2     0      0     c003b33c 00000000 S headset_reg_dum
+root      128   2     0      0     c003b33c 00000000 S adpgar_byp_sele
+root      129   2     0      0     c003b918 00000000 S kworker/u4:3
+root      130   2     0      0     c003b918 00000000 S kworker/u4:4
+root      131   2     0      0     c003b918 00000000 S kworker/u4:5
+root      132   1     524    224   c00fda10 0001a094 S /sbin/ueventd
+root      133   2     0      0     c02fe014 00000000 S ubi_bgt0d
+root      135   2     0      0     c01f2014 00000000 S ubifs_bgt0_19
+root      136   2     0      0     c01f2014 00000000 S ubifs_bgt0_16
+root      137   2     0      0     c01f2014 00000000 S ubifs_bgt0_0
+root      138   2     0      0     c003b33c 00000000 S gpu_dfs
+media_rw  139   1     3516   440   ffffffff b6f9c310 S /system/bin/sdcard
+media_rw  163   139   3516   440   c020cf58 b6f9c310 S sdcard
+media_rw  164   139   3516   440   c020cf58 b6f9c310 S sdcard
+root      140   1     1432   144   c0128000 000112c8 S /sbin/healthd
+system    141   1     1012   316   c0436b6c b6f145d4 S /system/bin/servicemanager
+root      142   1     4684   1124  ffffffff b6f24ecc S /system/bin/vold
+root      249   142   4684   1124  c00fda10 b6f24720 S vold
+root      250   142   4684   1124  c00fda10 b6f24720 S vold
+system    143   1     3152   592   ffffffff b6f1becc S /system/bin/download
+system    155   143   3152   592   c00fda10 b6f1b720 S download
+system    156   143   3152   592   c00fda10 b6f1b720 S download
+system    144   1     3360   776   ffffffff b6ef9eec R /system/bin/gnss_download
+system    151   144   3360   776   c00fda10 b6ef9720 S gnss_download
+system    152   144   3360   776   c00fda10 b6ef9720 S gnss_download
+system    145   1     3068   452   ffffffff b6e9becc S /system/bin/modem_control
+system    171   145   3068   452   c00fda10 b6e9b720 S modem_control
+system    175   145   3068   452   c058d8dc b6e9b310 S modem_control
+system    146   1     6160   492   ffffffff b6f54e4c S /system/bin/modemd
+system    172   146   6160   492   c04cfd78 b6f552c8 S modemd
+system    173   146   6160   492   c04cfd78 b6f552c8 S modemd
+system    174   146   6160   492   c058d8dc b6f54310 S modemd
+system    176   146   6160   492   c00fda10 b6f54720 S modemd
+system    178   146   6160   492   c058d8dc b6f54310 S modemd
+system    147   1     5336   644   ffffffff b6ea8ecc S /system/bin/wcnd
+system    265   147   5336   644   c00699f4 b6ea9950 S wcnd
+system    266   147   5336   644   c00fda10 b6ea8720 S wcnd
+system    267   147   5336   644   c00fda10 b6ea8720 S wcnd
+system    270   147   5336   644   c0044714 b6ea8ecc S wcnd
+system    148   1     360    84    c00fda10 00009780 S /bin/batterysrv
+system    149   1     2996   380   ffffffff b6f6a950 S /system/bin/modemDriver_vpad_main
+system    166   149   2996   380   c00fda10 b6f69720 S modemDriver_vpa
+system    169   149   2996   380   c00fda10 b6f69720 S modemDriver_vpa
+root      150   1     2328   1008  00000000 b6e8c80c R /system/bin/netd
+root      153   1     1136   480   c04cfd78 b6f762c8 S /system/bin/debuggerd
+root      154   1     3632   588   ffffffff b6f8d028 S /system/bin/slog
+root      215   154   3632   588   c04cfd78 b6f80c08 S slog
+root      234   154   3632   588   c0044714 b6f8d18c S slog
+system    157   1     22772  3212  ffffffff b685e548 R /system/bin/surfaceflinger
+system    251   157   22772  3212  c0436b6c b6e8d5d4 S Binder_1
+system    252   157   22772  3212  c0436b6c b6e8d5d4 S Binder_2
+system    253   157   22772  3212  c00699f4 b6e8e950 S DispSync
+system    273   157   22772  3212  bf002030 b6e8d5d4 S MaliNotify
+system    274   157   22772  3212  c00699f4 b6e8e950 S surfaceflinger
+system    282   157   22772  3212  c00699f4 b6e8e950 S OverlayComposer
+system    283   157   22772  3212  c00699f4 b6e8e950 S SprdVSyncThread
+system    287   157   22772  3212  00000000 b683af00 R SprdWIDIBlit
+system    296   157   22772  3212  c00699f4 b6e8e950 S MaliWorker
+system    298   157   22772  3212  c00699f4 b6e8e950 S MaliWorker
+system    299   157   22772  3212  c00699f4 b6e8e950 S MaliWorker
+system    328   157   22772  3212  c00699f4 b6e8e950 S EventThread
+system    329   157   22772  3212  c00699f4 b6e8e950 S EventThread
+system    330   157   22772  3212  c00699f4 b6e8e950 S EventControl
+root      158   1     21024  4440  00000000 b6f610cc R /system/bin/app_process
+drm       159   1     10772  3696  ffffffff b6e765d4 S /system/bin/drmserver
+drm       290   159   10772  3696  c04cfd78 b6e772c8 S drmserver
+drm       291   159   10772  3696  c0436b6c b6e765d4 S Binder_1
+media     160   1     10932  4016  00000000 b6f97032 R /system/bin/mediaserver
+install   161   1     1004   440   c04cfd78 b6f562c8 S /system/bin/installd
+keystore  162   1     3368   1208  c0436b6c b6f475d4 S /system/bin/keystore
+system    165   1     1900   352   ffffffff b6eb52c8 S /system/bin/fotabinder
+system    177   165   1900   352   c0044714 b6eb4ecc S fotabinder
+shell     167   1     1312   712   c00fda10 b6f8a80c S /system/bin/slogmodem
+root      168   1     1068   404   c00255ac b6ee4e38 S /system/xbin/srtd
+system    170   1     5828   1292  ffffffff b6f30950 S /system/bin/thermald
+system    262   170   5828   1292  c0044714 b6f2fecc S thermald
+system    263   170   5828   1292  c04cfd78 b6f302c8 S thermald
+system    264   170   5828   1292  c00fda10 b6f3080c S thermald
+root      179   168   1068   192   c0044714 b6ee5ecc S /system/xbin/srtd
+system    180   1     31000  940   ffffffff b6ec5e4c S /system/bin/phoneserver
+system    185   180   31000  940   c04cfd78 b6ec62c8 S phoneserver
+system    187   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    188   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    189   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    190   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    191   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    192   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    193   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    194   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    195   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    196   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    197   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    198   180   31000  940   c046a2f8 b6ec5310 S phoneserver
+system    199   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    200   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    201   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    202   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    203   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    204   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    205   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    206   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    207   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    208   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    209   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    210   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    211   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    212   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    213   180   31000  940   c00fda10 b6ec5720 S phoneserver
+system    214   180   31000  940   c0044714 b6ec5ecc S phoneserver
+root      181   1     14836  4212  ffffffff b6f42ecc S /system/bin/engpc
+root      308   181   14836  4212  c00fda10 b6f4380c S engpc
+root      309   181   14836  4212  c028de18 b6f42330 S engpc
+root      310   181   14836  4212  c028f890 b6f42310 S engpc
+root      311   181   14836  4212  c046a2f8 b6f42310 S engpc
+root      312   181   14836  4212  c00fda10 b6f42720 S engpc
+root      313   181   14836  4212  c046a2f8 b6f42310 S engpc
+radio     182   1     7776   1012  ffffffff b6f55ecc S /system/bin/rild_sp
+radio     226   182   7776   1012  c00fda10 b6f55720 S rild_sp
+radio     236   182   7776   1012  c00699f4 b6f56950 S rild_sp
+radio     238   182   7776   1012  c00fda10 b6f55720 S rild_sp
+radio     239   182   7776   1012  c00699f4 b6f56950 S rild_sp
+radio     240   182   7776   1012  c00699f4 b6f56950 S rild_sp
+radio     183   1     7776   1012  ffffffff b6f63ecc S /system/bin/rild_sp
+radio     227   183   7776   1012  c00fda10 b6f63720 S rild_sp
+radio     235   183   7776   1012  c00699f4 b6f64950 S rild_sp
+radio     237   183   7776   1012  c00fda10 b6f63720 S rild_sp
+radio     241   183   7776   1012  c00699f4 b6f64950 S rild_sp
+radio     242   183   7776   1012  c00699f4 b6f64950 S rild_sp
+root      184   1     5232   3588  ffffffff b6f22310 S /system/bin/cp_diskserver
+root      221   184   5232   3588  c00699f4 b6f23950 S cp_diskserver
+shell     217   1     936    448   c028f890 b6ec1310 S /system/bin/sh
+media_rw  219   1     3508   440   ffffffff b6f07ecc S /system/bin/sdcard
+media_rw  254   219   3508   440   c020cf58 b6f07310 S sdcard
+media_rw  255   219   3508   440   c020cf58 b6f07310 S sdcard
+root      220   1     2424   868   c0044714 b6ec2ecc S /system/bin/collect_apr
+system    222   1     3196   532   ffffffff b6f7c310 S /system/bin/refnotify
+system    224   222   3196   532   c005ea58 b6f7c310 S refnotify
+system    225   222   3196   532   c00fda10 b6f7d80c S refnotify
+shell     223   1     4592   228   ffffffff 000193c4 S /sbin/adbd
+shell     256   223   4592   228   c00699f4 0002554c S adbd
+shell     271   223   4592   228   00000000 00019254 R adbd
+shell     272   223   4592   228   c036ce6c 00019254 S adbd
+shell     316   223   4592   228   c00255ac 0001914c S adbd
+root      246   2     0      0     c003b918 00000000 S kworker/0:2
+root      269   1     11704  3576  ffffffff b6ef0ecc S /system/bin/engpc
+root      276   269   11704  3576  c04cfd78 b6ef1424 S engpc
+root      278   269   11704  3576  c028f890 b6ef0310 S engpc
+root      279   269   11704  3576  c02c9040 b6ef0310 S engpc
+shell     315   223   1428   840   00000000 b6f44330 R logcat
+root      325   154   920    412   c0034464 b6f6e158 S sh
+root      331   325   1264   448   00000000 b6ece310 R ps
+graphics  332   1     7404   2240  00000000 b6f0f4a6 R /system/bin/bootanimation
+
+============ slog_conf  18-05-23 11:27:13  ==============
+#control: enable/disable
+enable
+
+#type	name		value
+var	logpath		external
+var	screenshot	enable
+var	slogsaveall	off
+var	sysdump		on
+var	coredump	on
+var	hprofs		on
+var	sprd_debug	on
+var	kmemleak	off
+
+#type	name	state	size	level
+stream	kernel	on	0	7
+stream	main	on	0	5
+stream	events	on	0	0
+stream	system	on	0	8
+stream	radio	on	0	0
+stream	cp0	off	0	5
+stream	cp1	off	0	5
+stream	cp2	off	0	5
+stream	cp_wcdma	off	0	5
+stream	cp_td-scdma	off	0	5
+stream	cp_wcn		off	0	5
+stream	cp_td-lte	on	0	5
+stream	cp_tdd-lte	off	0	5
+stream	cp_fdd-lte	off	0	5
+stream	bt	off	0	7
+stream	tcp	off	0	7
+stream	kmemleak	off	0	7
+misc	misc	on	0	5
+
+#type	name		opt	level	inter	action
+snap	meminfo		file	6	300	/proc/meminfo
+snap	slab		file	6	300	/proc/slabinfo
+snap	buddy		file	6	300	/proc/buddyinfo
+snap	slog_conf	file	6	300	/data/local/tmp/slog/slog.conf
+snap	cpu_usage	file	9	300	/sys/kernel/debug/sprd_debug/cpu/cpu_usage
+snap	traces		file	7	0	/data/anr/traces.txt
+snap	last_kmsg	file	7	0	/sys/fs/pstore/console-ramoops
+snap	cmdline		file	7	0	/proc/cmdline
+snap	ps		cmd	6	300	ps -t
+snap	df		cmd	6	300	df
+snap	procrank	cmd	9	300	procrank
+snap	bugreport	cmd	9	0	bugreport
+snap	getprop		cmd	9	0	getprop
+snap	dumpsys		cmd	9	0	dumpsys
+snap	query_task_fd	cmd	6	0	query_task_fd
+
+#binder_info
+snap	binder_failed_transaction_log	file	6	300	/sys/kernel/debug/binder/failed_transaction_log
+snap	binder_transaction_log	file	6	300	/sys/kernel/debug/binder/transaction_log
+snap	binder_transactions	file	6	300	/sys/kernel/debug/binder/transactions
+snap	binder_stats	file	6	300	/sys/kernel/debug/binder/stats
+snap	binder_state	file	6	300	/sys/kernel/debug/binder/state
+#binder end
+
+#type	name		level	file
+notify	anr		1	/data/anr
+notify	tombstones	1	/data/tombstones
+
+============ buddy  18-05-23 11:27:13  ==============
+Node 0, zone   Normal      0      2      3      1      3      1      1      2      2      3      2      6      3      0 
+
+============ slab  18-05-23 11:27:13  ==============
+slabinfo - version: 2.1
+# name            <active_objs> <num_objs> <objsize> <objperslab> <pagesperslab> : tunables <limit> <batchcount> <sharedfactor> : slabdata <active_slabs> <num_slabs> <sharedavail>
+ubifs_inode_slab     360    360    440   18    2 : tunables    0    0    0 : slabdata     20     20      0
+UDPLITEv6              0      0    768   21    4 : tunables    0    0    0 : slabdata      0      0      0
+UDPv6                  0      0    768   21    4 : tunables    0    0    0 : slabdata      0      0      0
+tw_sock_TCPv6          0      0    192   21    1 : tunables    0    0    0 : slabdata      0      0      0
+TCPv6                  0      0   1408   11    4 : tunables    0    0    0 : slabdata      0      0      0
+xt_hashlimit           0      0     80   51    1 : tunables    0    0    0 : slabdata      0      0      0
+nf_conntrack_c09e9740      0      0    224   18    1 : tunables    0    0    0 : slabdata      0      0      0
+nf_conntrack_expect      0      0    160   25    1 : tunables    0    0    0 : slabdata      0      0      0
+ashmem_area_cache      0      0    288   14    1 : tunables    0    0    0 : slabdata      0      0      0
+kcopyd_job             0      0   2808    5    4 : tunables    0    0    0 : slabdata      0      0      0
+dm_rq_target_io        0      0    248   16    1 : tunables    0    0    0 : slabdata      0      0      0
+cfq_queue              0      0    152   26    1 : tunables    0    0    0 : slabdata      0      0      0
+fuse_request          28     28    280   14    1 : tunables    0    0    0 : slabdata      2      2      0
+fuse_inode            36     36    448   18    2 : tunables    0    0    0 : slabdata      2      2      0
+sdcardfs_inode_cache      0      0    360   22    2 : tunables    0    0    0 : slabdata      0      0      0
+exfat_inode_cache      0      0    448   18    2 : tunables    0    0    0 : slabdata      0      0      0
+fat_inode_cache        0      0    424   19    2 : tunables    0    0    0 : slabdata      0      0      0
+fat_cache              0      0     24  170    1 : tunables    0    0    0 : slabdata      0      0      0
+jbd2_transaction_s      0      0    192   21    1 : tunables    0    0    0 : slabdata      0      0      0
+journal_handle         0      0     24  170    1 : tunables    0    0    0 : slabdata      0      0      0
+revoke_record          0      0     16  256    1 : tunables    0    0    0 : slabdata      0      0      0
+ext4_inode_cache       0      0    608   13    2 : tunables    0    0    0 : slabdata      0      0      0
+ext4_allocation_context      0      0    112   36    1 : tunables    0    0    0 : slabdata      0      0      0
+ext4_prealloc_space      0      0     72   56    1 : tunables    0    0    0 : slabdata      0      0      0
+ext4_io_end            0      0     40  102    1 : tunables    0    0    0 : slabdata      0      0      0
+ext4_extent_status      0      0     32  128    1 : tunables    0    0    0 : slabdata      0      0      0
+ext2_inode_cache       0      0    488   16    2 : tunables    0    0    0 : slabdata      0      0      0
+ext3_inode_cache       0      0    504   16    2 : tunables    0    0    0 : slabdata      0      0      0
+ext3_xattr             0      0     56   73    1 : tunables    0    0    0 : slabdata      0      0      0
+configfs_dir_cache     73     73     56   73    1 : tunables    0    0    0 : slabdata      1      1      0
+dio                    0      0    384   21    2 : tunables    0    0    0 : slabdata      0      0      0
+posix_timers_cache      0      0    168   24    1 : tunables    0    0    0 : slabdata      0      0      0
+UNIX                  72     72    640   12    2 : tunables    0    0    0 : slabdata      6      6      0
+UDP-Lite               0      0    640   12    2 : tunables    0    0    0 : slabdata      0      0      0
+xfrm_dst_cache         0      0    320   12    1 : tunables    0    0    0 : slabdata      0      0      0
+UDP                   12     12    640   12    2 : tunables    0    0    0 : slabdata      1      1      0
+tw_sock_TCP            0      0    128   32    1 : tunables    0    0    0 : slabdata      0      0      0
+TCP                    0      0   1280   12    4 : tunables    0    0    0 : slabdata      0      0      0
+eventpoll_pwq        204    204     40  102    1 : tunables    0    0    0 : slabdata      2      2      0
+blkdev_queue          28     28   1144   14    4 : tunables    0    0    0 : slabdata      2      2      0
+blkdev_requests        0      0    216   18    1 : tunables    0    0    0 : slabdata      0      0      0
+blkdev_ioc           112    112     72   56    1 : tunables    0    0    0 : slabdata      2      2      0
+fsnotify_event_holder      0      0     16  256    1 : tunables    0    0    0 : slabdata      0      0      0
+biovec-256             5      5   3072    5    4 : tunables    0    0    0 : slabdata      1      1      0
+biovec-128             0      0   1536   10    4 : tunables    0    0    0 : slabdata      0      0      0
+biovec-64             42     42    768   21    4 : tunables    0    0    0 : slabdata      2      2      0
+sock_inode_cache     126    126    384   21    2 : tunables    0    0    0 : slabdata      6      6      0
+file_lock_cache       72     72    112   36    1 : tunables    0    0    0 : slabdata      2      2      0
+shmem_inode_cache    273    273    376   21    2 : tunables    0    0    0 : slabdata     13     13      0
+proc_inode_cache    1606   1606    368   22    2 : tunables    0    0    0 : slabdata     73     73      0
+sigqueue              56     56    144   28    1 : tunables    0    0    0 : slabdata      2      2      0
+bdev_cache            16     16    512   16    2 : tunables    0    0    0 : slabdata      1      1      0
+inode_cache         6384   6384    336   12    1 : tunables    0    0    0 : slabdata    532    532      0
+dentry              8850   8850    136   30    1 : tunables    0    0    0 : slabdata    295    295      0
+buffer_head          128    128     64   64    1 : tunables    0    0    0 : slabdata      2      2      0
+nsproxy             2380   2380     24  170    1 : tunables    0    0    0 : slabdata     14     14      0
+vm_area_struct      2852   2852     88   46    1 : tunables    0    0    0 : slabdata     62     62      0
+mm_struct             54     54    448   18    2 : tunables    0    0    0 : slabdata      3      3      0
+signal_cache         154    154    576   14    2 : tunables    0    0    0 : slabdata     11     11      0
+sighand_cache        144    144   1344   12    4 : tunables    0    0    0 : slabdata     12     12      0
+task_struct          255    255   1088   15    4 : tunables    0    0    0 : slabdata     17     17      0
+anon_vma_chain      4864   4864     32  128    1 : tunables    0    0    0 : slabdata     38     38      0
+anon_vma            1152   1152     32  128    1 : tunables    0    0    0 : slabdata      9      9      0
+radix_tree_node      299    299    304   13    1 : tunables    0    0    0 : slabdata     23     23      0
+idr_layer_cache      150    150   1080   15    4 : tunables    0    0    0 : slabdata     10     10      0
+kmalloc-8192         351    352   8192    2    4 : tunables    0    0    0 : slabdata    176    176      0
+kmalloc-4096         156    156   4096    4    4 : tunables    0    0    0 : slabdata     39     39      0
+kmalloc-2048          72     72   2048    8    4 : tunables    0    0    0 : slabdata      9      9      0
+kmalloc-1024         336    336   1024   16    4 : tunables    0    0    0 : slabdata     21     21      0
+kmalloc-512          656    656    512   16    2 : tunables    0    0    0 : slabdata     41     41      0
+kmalloc-256         1808   1808    256   16    1 : tunables    0    0    0 : slabdata    113    113      0
+kmalloc-192         1953   1953    192   21    1 : tunables    0    0    0 : slabdata     93     93      0
+kmalloc-128         3456   3456    128   32    1 : tunables    0    0    0 : slabdata    108    108      0
+kmalloc-64         23680  23680     64   64    1 : tunables    0    0    0 : slabdata    370    370      0
+kmem_cache_node      128    128     64   64    1 : tunables    0    0    0 : slabdata      2      2      0
+kmem_cache           128    128    128   32    1 : tunables    0    0    0 : slabdata      4      4      0

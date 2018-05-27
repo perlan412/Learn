@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>  
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="@dimen/window_width"
+    	android:layout_height="@dimen/window_height"
+    	android:padding="@dimen/app_item_padding"
+    	android:background = "@drawable/black" >
+    
+
+    <RelativeLayout
+        android:id="@+id/id_ente_camera"
+        android:layout_width="@dimen/window_width_half"
+    	android:layout_height="@dimen/window_height_half"
+    	android:background = "@drawable/button_selector"
+    	android:clickable="true" >
+    
+    	<ImageView
+    	    android:id="@+id/item_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="center"
+            android:src="@drawable/ente_camera"/>
+    
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/item_image1"
+        	android:layout_centerHorizontal="true"
+        	android:text="@string/ente_camera"
+        	android:textColor="@color/white" 
+        	android:textSize="@dimen/app_name_size"/>
+    	
+	</RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/id_ente_music"
+        android:layout_width="@dimen/window_width_half"
+    	android:layout_height="@dimen/window_height_half"
+    	android:background = "@drawable/button_selector"
+    	android:clickable="true"
+    	android:layout_toRightOf="@id/id_ente_camera" >
+    
+    	<ImageView
+    	    android:id="@+id/item_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="center"
+            android:src="@drawable/ente_music"/>
+    
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/item_image2"
+        	android:layout_centerHorizontal="true"
+        	android:text="@string/ente_music"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/app_name_size" />
+	</RelativeLayout>
+		
+<!--
+    <RelativeLayout
+        android:id="@+id/id_ente_weixin"
+        android:layout_width="@dimen/window_width_half"
+    	android:layout_height="@dimen/window_height_half"
+    	android:background = "@drawable/button_selector"
+    	android:clickable="true"
+    	android:layout_below="@id/id_ente_camera" >
+    
+    	<ImageView
+    	    android:id="@+id/item_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="center"
+            android:src="@drawable/ente_weixin"/>
+    
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/item_image3"
+        	android:layout_centerHorizontal="true"
+        	android:text="@string/ente_weixin"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/app_name_size" />
+	</RelativeLayout>
+    
+    
+    <RelativeLayout
+        android:id="@+id/id_ente_qq"
+        android:layout_width="@dimen/window_width_half"
+    	android:layout_height="@dimen/window_height_half"
+    	android:background = "@drawable/button_selector"
+    	android:clickable="true"
+    	android:layout_below="@id/id_ente_camera"
+    	android:layout_toRightOf="@id/id_ente_camera" >
+    
+    	<ImageView
+    	    android:id="@+id/item_image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="center"
+            android:src="@drawable/ente_qq"/>
+    
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/item_image4"
+        	android:layout_centerHorizontal="true"
+        	android:text="@string/ente_qq"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/app_name_size" />
+	</RelativeLayout>
+	-->
+</RelativeLayout>

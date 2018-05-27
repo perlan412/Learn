@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:alading="http://schemas.android.com/apk/res/com.alading.launcher"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/clock_bg">
+    <!-- 
+    <LinearLayout 
+        android:id = "@+id/data_layout"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="214dip"
+    	android:layout_centerHorizontal="true"
+    	android:orientation="horizontal">
+	    <ImageView 
+	        android:id = "@+id/id_current_clock_image_00"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+	    <ImageView 
+	        android:id = "@+id/id_current_clock_image_01"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView 
+        android:id = "@+id/id_current_time_week_1"
+        android:layout_below="@id/data_layout"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_centerHorizontal="true"
+    	android:textColor="@color/white"
+        android:textSize="18sp"/>
+    
+     -->
+    <com.alading.launcher.view.ClockView
+        android:id = "@+id/id_current_clock_view"
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	alading:anchor_center = "true"
+    	alading:clock_bg = "@drawable/clock_bg"
+    	alading:clock_hour = "@drawable/clock_hour"
+    	alading:clock_minute = "@drawable/clock_minute"
+    	alading:clock_second = "@drawable/clock_second"/>
+</RelativeLayout>

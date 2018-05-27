@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>  
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="@dimen/window_width"
+    	android:layout_height="@dimen/window_height"
+    	android:padding="@dimen/app_item_padding"
+    	android:background = "@drawable/black" >
+    
+
+    <RelativeLayout
+        android:id="@+id/id_comm_dial"
+        android:layout_width="@dimen/window_width_half"
+    	android:layout_height="@dimen/window_height_half"
+    	android:background = "@drawable/button_selector"
+    	android:clickable="true" >
+    
+    	<ImageView
+    	    android:id="@+id/item_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/comm_dial"/>
+    
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/item_image1"
+        	android:layout_centerHorizontal="true"
+        	android:text="@string/comm_dial"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/app_name_size" />
+    	
+	</RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/id_comm_sms"
+        android:layout_width="@dimen/window_width_half"
+    	android:layout_height="@dimen/window_height_half"
+    	android:background = "@drawable/button_selector"
+    	android:clickable="true"
+    	android:layout_toRightOf="@id/id_comm_dial" >
+    
+    	<ImageView
+    	    android:id="@+id/item_image2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="center"
+            android:src="@drawable/comm_sms"/>
+    
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/item_image2"
+        	android:layout_centerHorizontal="true"
+        	android:text="@string/comm_sms"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/app_name_size" />
+	</RelativeLayout>
+		
+
+    <RelativeLayout
+        android:id="@+id/id_comm_call_records"
+        android:layout_width="@dimen/window_width_half"
+    	android:layout_height="@dimen/window_height_half"
+    	android:background = "@drawable/button_selector"
+    	android:clickable="true"
+    	android:layout_below="@id/id_comm_dial" >
+    
+    	<ImageView
+    	    android:id="@+id/item_image3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="center"
+            android:src="@drawable/comm_call_records"/>
+    
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/item_image3"
+        	android:layout_centerHorizontal="true"
+        	android:text="@string/comm_call_records"
+        	android:textColor="@color/white" 
+        	android:textSize="@dimen/app_name_size"/>
+	</RelativeLayout>
+    
+    
+    <RelativeLayout
+        android:id="@+id/id_comm_contacts"
+        android:layout_width="@dimen/window_width_half"
+    	android:layout_height="@dimen/window_height_half"
+    	android:background = "@drawable/button_selector"
+    	android:clickable="true"
+    	android:layout_below="@id/id_comm_dial"
+    	android:layout_toRightOf="@id/id_comm_dial" >
+    
+    	<ImageView
+    	    android:id="@+id/item_image4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:scaleType="center"
+            android:src="@drawable/comm_contacts"/>
+    
+    	<TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_below="@id/item_image4"
+        	android:layout_centerHorizontal="true"
+        	android:text="@string/comm_contacts"
+        	android:textColor="@color/white"
+        	android:textSize="@dimen/app_name_size" />
+	</RelativeLayout>
+	
+</RelativeLayout>
